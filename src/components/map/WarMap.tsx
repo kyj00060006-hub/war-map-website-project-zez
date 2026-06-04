@@ -9,6 +9,7 @@ import { MapLayerRenderer } from "./MapLayerRenderer";
 type WarMapProps = {
   activeWarId: WarId;
   activeStageId: string;
+  focusedBattle: Battle | null;
   onSelectBattle: (battle: Battle) => void;
 };
 
@@ -24,7 +25,19 @@ function MapViewportSync({ activeWarId }: { activeWarId: WarId }) {
   return null;
 }
 
-export function WarMap({ activeWarId, activeStageId, onSelectBattle }: WarMapProps) {
+function BattleFocusSync({ battle }: { battle: Battle | null }) {
+  const map = useMap();
+
+  useEffect(() => {
+    if (!battle) return;
+    const targetZoom = Math.max(map.getZoom(), 7);
+    map.flyTo(battle.coordinates, targetZoom, { duration: 0.65 });
+  }, [battle, map]);
+
+  return null;
+}
+
+export function WarMap({ activeWarId, activeStageId, focusedBattle, onSelectBattle }: WarMapProps) {
   const config = getMapConfigByWarId(activeWarId);
   const stageBattles = getBattlesByWarAndStage(activeWarId, activeStageId);
   const layers = getMapLayersByWarAndStage(activeWarId, activeStageId);
@@ -45,6 +58,7 @@ export function WarMap({ activeWarId, activeStageId, onSelectBattle }: WarMapPro
         scrollWheelZoom
       >
         <MapViewportSync activeWarId={activeWarId} />
+        <BattleFocusSync battle={focusedBattle} />
         <BaseMapLayer config={config} />
         <MapLayerRenderer layers={layers} />
         <BattleMarkers battles={stageBattles} onSelectBattle={onSelectBattle} />

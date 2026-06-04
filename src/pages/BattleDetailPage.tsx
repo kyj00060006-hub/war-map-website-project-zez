@@ -13,7 +13,7 @@ export function BattleDetailPage() {
   return (
     <main className="detail-page">
       <nav className="detail-actions" aria-label="详情页导航">
-        <Link to="/map">返回地图</Link>
+        <Link to={`/map?battle=${battle.id}`}>返回地图</Link>
         <Link to="/battles">返回资料库</Link>
       </nav>
       <BattleDetailContent battle={battle} />

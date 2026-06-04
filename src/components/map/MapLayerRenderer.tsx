@@ -1,4 +1,4 @@
-import { Polygon, Polyline } from "react-leaflet";
+import { Polygon, Polyline, Tooltip } from "react-leaflet";
 import type { AreaMapLayer, MapLayer } from "../../types/war";
 
 type MapLayerRendererProps = {
@@ -20,7 +20,12 @@ export function MapLayerRenderer({ layers }: MapLayerRendererProps) {
                 dashArray: layer.style.dashArray,
                 opacity: layer.style.opacity,
               }}
-            />
+            >
+              <Tooltip sticky>
+                <strong>{layer.name}</strong>
+                {layer.description ? <span>{layer.description}</span> : null}
+              </Tooltip>
+            </Polyline>
           );
         }
 
@@ -35,7 +40,12 @@ export function MapLayerRenderer({ layers }: MapLayerRendererProps) {
               fillOpacity: areaLayer.style.fillOpacity,
               weight: areaLayer.style.weight,
             }}
-          />
+          >
+            <Tooltip sticky>
+              <strong>{areaLayer.name}</strong>
+              {areaLayer.description ? <span>{areaLayer.description}</span> : null}
+            </Tooltip>
+          </Polygon>
         );
       })}
     </>
