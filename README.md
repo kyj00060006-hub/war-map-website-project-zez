@@ -33,6 +33,8 @@ This is the first demo version. It uses sample historical data to validate the w
 ## 本地运行
 
 ```bash
+git clone https://github.com/kyj00060006-hub/war-map-website-project-zez.git
+cd war-map-website-project-zez
 npm install
 npm run dev
 ```
@@ -56,3 +58,29 @@ npm run build
 - `routes.ts`
 
 地图底图由 `mapConfigs.ts` 控制，当前使用标准瓦片，后续可替换为自定义瓦片或图片覆盖底图。
+
+## 跨设备接力
+
+换设备继续开发时，请先阅读：
+
+- `CODEX_HANDOFF.md`
+- `docs/workflow/dev-workflow.md`
+- `docs/prompts/codex-start-template.md`
+
+推荐接力流程：
+
+```bash
+git pull
+npm install
+npm run dev
+```
+
+每轮完成后：
+
+```bash
+npm run build
+git status
+git add <changed-files>
+git commit -m "<clear message>"
+git push
+```
