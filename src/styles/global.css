@@ -535,8 +535,15 @@ dd {
 }
 
 .stage-battle-items span,
-.stage-battle-items small {
+.stage-battle-items small,
+.stage-battle-items p {
   color: var(--muted);
+}
+
+.stage-battle-items p {
+  margin: 2px 0 0;
+  color: #cbd9de;
+  font-size: 13px;
 }
 
 .empty-stage-message {

@@ -1,0 +1,8 @@
+{
+  "input_dir": "~/Desktop/zez_project/txt_pipeline_output",
+  "output_dir": "~/Desktop/zez_project/battle_cards_output",
+  "max_evidence_per_battle": 12,
+  "snippet_radius_chars": 180,
+  "min_priority": "P1",
+  "overwrite": true
+}

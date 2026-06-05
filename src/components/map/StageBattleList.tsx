@@ -23,6 +23,7 @@ export function StageBattleList({ battles, onSelectBattle }: StageBattleListProp
               <strong>{battle.name}</strong>
               <span>{battle.dateLabel}</span>
               <small>{battle.location}</small>
+              <p>{battle.overview}</p>
             </button>
           ))}
         </div>

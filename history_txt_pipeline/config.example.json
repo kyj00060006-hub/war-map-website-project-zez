@@ -1,0 +1,12 @@
+{
+  "input_dir": "~/Desktop/zez_project/ocr_text",
+  "output_dir": "~/Desktop/zez_project/txt_pipeline_output",
+  "recursive": true,
+  "overwrite": false,
+  "skip_existing": true,
+  "preview_chars_for_classification": 12000,
+  "chunk_size_chars": 12000,
+  "chunk_overlap_chars": 800,
+  "normalize_whitespace": true,
+  "keep_original_line_breaks": true
+}

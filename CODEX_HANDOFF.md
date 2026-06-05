@@ -7,9 +7,41 @@ This file is the first thing Codex should read when continuing this project on a
 - Repository: `kyj00060006-hub/war-map-website-project-zez`
 - GitHub URL: `https://github.com/kyj00060006-hub/war-map-website-project-zez`
 - Local project name: `war-map-website-project-zez`
+- Unified local project folder: `/Users/kongyujia/Desktop/zez_project`
+- Website repo folder inside the project package: `/Users/kongyujia/Desktop/zez_project/website`
 - Current branch: `main`
 - App type: React + Vite + TypeScript single-page app
 - Deployment target: Vercel
+
+## Unified Local Workspace
+
+The project has been reorganized into one desktop package:
+
+```txt
+/Users/kongyujia/Desktop/zez_project/
+  website/                 # GitHub/Vercel website repo
+  reference/               # original PDF/source materials
+  ocr_text/                # OCR TXT output from reference PDFs
+  txt_pipeline_output/     # TXT manifest, normalized text, chunks, source index
+  battle_cards_output/     # draft battle cards and evidence index
+  reviewed_battle_cards/   # human-reviewed cards before website conversion
+  workflows/               # Codex workflow documents
+  notes/                   # user notes and project notes
+  archive/                 # old zip/export artifacts
+```
+
+Current historical-data flow:
+
+```txt
+reference
+→ ocr_text
+→ txt_pipeline_output
+→ battle_cards_output
+→ reviewed_battle_cards
+→ website/src/data
+```
+
+Do not put large PDFs, OCR TXT, normalized chunks, or generated battle-card output into the website repo unless explicitly requested.
 
 ## Current Goal
 
@@ -29,6 +61,13 @@ The first demo validates:
 
 The current priority is demo experience and extensibility, not adding large amounts of unverified historical data.
 
+Historical source processing now has two local offline tools inside the repo:
+
+- `history_txt_pipeline/`: scans OCR TXT, builds manifest/source index, normalized Markdown, and chunks.
+- `battle_card_pipeline/`: reads `txt_pipeline_output`, finds evidence candidates, and generates draft Markdown battle cards.
+
+These tools use local files only. They do not call online APIs and they do not write final website battle data.
+
 ## Current Status
 
 Implemented pages:
@@ -38,6 +77,18 @@ Implemented pages:
 - `/battles` battle archive
 - `/battles/:battleId` battle detail
 - `/about` project notes
+
+Generated local historical outputs:
+
+- `/Users/kongyujia/Desktop/zez_project/txt_pipeline_output`
+  - 28 TXT files processed
+  - 0 failed
+  - source index and chunks generated
+- `/Users/kongyujia/Desktop/zez_project/battle_cards_output`
+  - 20 draft/incomplete battle cards generated
+  - 159 evidence candidates
+  - 15 cards have evidence candidates
+  - 5 Civil War cards are intentionally `incomplete` because current TXT sources do not contain matching Civil War books
 
 Implemented interactions:
 
@@ -129,6 +180,12 @@ Deployment:
 
 - `vercel.json`
 
+Local tools:
+
+- `history_txt_pipeline/run_pipeline.py`
+- `battle_card_pipeline/run_battle_cards.py`
+- `tools/ocr_reference_pdfs.py`
+
 ## Non-Negotiable Constraints
 
 - Do not rewrite the whole architecture.
@@ -176,6 +233,28 @@ npm install
 npm run dev
 ```
 
+If the full local research package has been copied to the same desktop layout, the preferred website path is:
+
+```bash
+cd ~/Desktop/zez_project/website
+```
+
+If only the GitHub repo was cloned, the website works, but large local research folders such as `reference/`, `ocr_text/`, `txt_pipeline_output`, and `battle_cards_output` need to be copied separately into `~/Desktop/zez_project/`.
+
+Run the TXT pipeline from the website repo:
+
+```bash
+cd ~/Desktop/zez_project/website
+python3 history_txt_pipeline/run_pipeline.py
+```
+
+Run the Battle Card pipeline:
+
+```bash
+cd ~/Desktop/zez_project/website
+python3 battle_card_pipeline/run_battle_cards.py
+```
+
 ## Codex Startup Prompt For Another Device
 
 Paste this into Codex on the new device:
@@ -185,6 +264,16 @@ Paste this into Codex on the new device:
 
 项目是 React + Vite + TypeScript + React Router + React Leaflet 的近现代战争时空可视化网站。
 
+如果是在这台或同样结构的设备上，优先使用：
+/Users/kongyujia/Desktop/zez_project/website
+
+资料目录在：
+/Users/kongyujia/Desktop/zez_project/reference
+/Users/kongyujia/Desktop/zez_project/ocr_text
+/Users/kongyujia/Desktop/zez_project/txt_pipeline_output
+/Users/kongyujia/Desktop/zez_project/battle_cards_output
+/Users/kongyujia/Desktop/zez_project/reviewed_battle_cards
+
 请遵守：
 - 不要重构整体架构
 - 不要把历史内容写死在组件里
@@ -192,6 +281,7 @@ Paste this into Codex on the new device:
 - 不要新增大量未经核验的历史资料
 - 每轮完成后运行 npm run build
 - 每轮完成后更新 CODEX_HANDOFF.md，提交 git，并提醒我是否需要 push
+- 不要把 raw TXT/chunks 直接转换进 website data；必须先经过 battle card/review 层
 
 当前我想继续做的是：<在这里写本轮任务>
 ```
@@ -247,6 +337,8 @@ Paste this into Codex on the new device:
 
 Reasonable next iterations:
 
+- Review the first 5 strongest draft battle cards and write reviewed Markdown cards into `/Users/kongyujia/Desktop/zez_project/reviewed_battle_cards`.
+- Generate `ready_for_website_candidates.csv` from reviewed cards before touching `src/data/battles.ts`.
 - Make `/map?battle=<battleId>` close/open behavior more polished and optionally highlight the selected marker.
 - Add a small “data quality” badge on battle archive cards.
 - Add source-management placeholders to battle detail pages.
