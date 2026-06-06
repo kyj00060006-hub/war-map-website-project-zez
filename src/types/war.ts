@@ -110,3 +110,98 @@ export type AreaMapLayer = {
 };
 
 export type MapLayer = LineMapLayer | AreaMapLayer;
+
+export type VisualSourceAsset = {
+  id: string;
+  title: string;
+  kind: "map-image" | "reference-pdf";
+  warId: WarId | null;
+  battleId: string | null;
+  sourceGroup: string;
+  relativePath: string;
+  localPath: string;
+  extension: string;
+  sizeBytes: number;
+  status: "available" | "deferred";
+};
+
+export type BattleReviewPackage = {
+  battleId: string;
+  websiteBattleIds: string[];
+  battleName: string;
+  warName: string;
+  stageHint: string;
+  sourceStatus: "prefilled_from_ocr" | "needs_source_material";
+  confidence: string;
+  evidenceCount: number;
+  relatedImageCount: number;
+  relatedPdfCount: number;
+  reviewCardPath: string;
+  evidenceCsvPath: string;
+  ocrExcerptPath: string;
+};
+
+export type LiberationAtlasCandidate = {
+  battleId: string;
+  battleName: string;
+  sequence: string;
+  confidence: "strong" | "medium";
+  pageTypeCandidate: string;
+  matchedTerms: string[];
+  titleCandidates: string[];
+  ocrExcerpt: string;
+  imagePath: string;
+  publicImageUrl: string;
+  rawTextPath: string;
+  riskTags: string;
+  reason: string;
+  detectedPageNumber: string;
+};
+
+export type LiberationAtlasBattleCandidateSummary = {
+  battleId: string;
+  battleName: string;
+  total: number;
+  strong: number;
+  medium: number;
+  mapLike: number;
+};
+
+export type BattleFieldAlignmentSummary = {
+  battleId: string;
+  battleName: string;
+  warId: WarId;
+  reviewPriority: string;
+  readyFieldCount: number;
+  weakOrSharedFieldCount: number;
+  missingFieldCount: number;
+  evidenceItemsAvailable: number;
+  aliasSourceIds: string[];
+  priorityNote: string;
+  recommendedAction: string;
+};
+
+export type BattleImageTimelineStep = {
+  id: string;
+  battleId: string;
+  label: string;
+  dateLabel: string;
+  title: string;
+  imageUrl: string;
+  summary: string;
+  sideA: {
+    name: string;
+    commanders?: string[];
+    strength?: string;
+    notes?: string;
+  };
+  sideB: {
+    name: string;
+    commanders?: string[];
+    strength?: string;
+    notes?: string;
+  };
+  keyLocations: string[];
+  mapNotes: string;
+  dataStatus: "draft" | "needs_review" | "checked";
+};

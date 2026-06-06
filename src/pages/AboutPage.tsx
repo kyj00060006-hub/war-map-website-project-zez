@@ -5,7 +5,7 @@ export function AboutPage() {
     <PageShell
       eyebrow="Project Notes"
       title="项目说明"
-      description="第一版 Demo 用于验证课程作品的网站架构与可演示性。"
+      description="本项目以历史科普叙述为主，结合地图、时间轴、图册和资料校准状态展示近现代战争进程。"
     >
       <section className="about-grid">
         <article>
@@ -18,15 +18,15 @@ export function AboutPage() {
         </article>
         <article>
           <h2>AI 工具工作流</h2>
-          <p>本轮由 Codex 根据构建计划生成工程骨架、数据 schema、交互组件和部署配置。</p>
+          <p>本轮由 Codex 根据构建计划整理资料、生成数据 schema、交互组件、审校工作台和部署配置。</p>
         </article>
         <article>
           <h2>数据来源说明</h2>
-          <p>第一版数据均为 draft 示例卡片，后续将补充正式史料来源、页码引用和数据冲突说明。</p>
+          <p>当前内容来自 OCR 文本、图册候选页和字段级证据对齐表；兵力、伤亡、起止日期等数字字段保留待校准说明。</p>
         </article>
         <article>
           <h2>后续改进计划</h2>
-          <p>计划加入真实地形图、战线变化、势力范围、部队部署、交通线、城市节点和更完整战役资料。</p>
+          <p>后续可继续补充矢量化态势层、战线变化、势力范围、部队部署、交通线、城市节点和更完整来源页码。</p>
         </article>
       </section>
     </PageShell>

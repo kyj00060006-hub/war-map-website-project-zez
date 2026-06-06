@@ -2,11 +2,13 @@ import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import { SiteFooter } from "../components/layout/SiteFooter";
 import { SiteHeader } from "../components/layout/SiteHeader";
 import { AboutPage } from "../pages/AboutPage";
+import { AtlasPage } from "../pages/AtlasPage";
 import { BattleDetailPage } from "../pages/BattleDetailPage";
 import { BattlesPage } from "../pages/BattlesPage";
 import { HomePage } from "../pages/HomePage";
 import { MapPage } from "../pages/MapPage";
 import { NotFoundPage } from "../pages/NotFoundPage";
+import { ReviewPage } from "../pages/ReviewPage";
 
 export function AppRouter() {
   return (
@@ -16,8 +18,10 @@ export function AppRouter() {
         <Route path="/" element={<HomePage />} />
         <Route path="/map" element={<MapPage />} />
         <Route path="/battles" element={<BattlesPage />} />
+        <Route path="/atlas" element={<AtlasPage />} />
         <Route path="/battles/:battleId" element={<BattleDetailPage />} />
         <Route path="/about" element={<AboutPage />} />
+        <Route path="/review" element={<ReviewPage />} />
         <Route path="/home" element={<Navigate to="/" replace />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>

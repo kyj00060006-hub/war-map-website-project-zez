@@ -1,0 +1,443 @@
+[
+  {
+    "battle_id": "battle-central-plains-breakout",
+    "battle_name": "中原突围",
+    "sequence": "012",
+    "confidence": "strong",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_012_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-central-plains-breakout_scan_012_strong.jpg",
+    "size_bytes": 1557789
+  },
+  {
+    "battle_id": "battle-central-plains-breakout",
+    "battle_name": "中原突围",
+    "sequence": "013",
+    "confidence": "medium",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_013_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-central-plains-breakout_scan_013_medium.jpg",
+    "size_bytes": 1256053
+  },
+  {
+    "battle_id": "battle-central-plains-breakout",
+    "battle_name": "中原突围",
+    "sequence": "020",
+    "confidence": "medium",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_020_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-central-plains-breakout_scan_020_medium.jpg",
+    "size_bytes": 1969012
+  },
+  {
+    "battle_id": "battle-huaihai-1948",
+    "battle_name": "淮海战役",
+    "sequence": "057",
+    "confidence": "strong",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_057_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-huaihai-1948_scan_057_strong.jpg",
+    "size_bytes": 1491744
+  },
+  {
+    "battle_id": "battle-huaihai-1948",
+    "battle_name": "淮海战役",
+    "sequence": "067",
+    "confidence": "strong",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_067_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-huaihai-1948_scan_067_strong.jpg",
+    "size_bytes": 1900480
+  },
+  {
+    "battle_id": "battle-huaihai-1948",
+    "battle_name": "淮海战役",
+    "sequence": "073",
+    "confidence": "strong",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_073_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-huaihai-1948_scan_073_strong.jpg",
+    "size_bytes": 1949165
+  },
+  {
+    "battle_id": "battle-huaihai-1948",
+    "battle_name": "淮海战役",
+    "sequence": "075",
+    "confidence": "strong",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_075_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-huaihai-1948_scan_075_strong.jpg",
+    "size_bytes": 1871664
+  },
+  {
+    "battle_id": "battle-huaihai-1948",
+    "battle_name": "淮海战役",
+    "sequence": "081",
+    "confidence": "strong",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_081_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-huaihai-1948_scan_081_strong.jpg",
+    "size_bytes": 1925439
+  },
+  {
+    "battle_id": "battle-huaihai-1948",
+    "battle_name": "淮海战役",
+    "sequence": "082",
+    "confidence": "strong",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_082_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-huaihai-1948_scan_082_strong.jpg",
+    "size_bytes": 1894436
+  },
+  {
+    "battle_id": "battle-huaihai-1948",
+    "battle_name": "淮海战役",
+    "sequence": "083",
+    "confidence": "strong",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_083_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-huaihai-1948_scan_083_strong.jpg",
+    "size_bytes": 1909429
+  },
+  {
+    "battle_id": "battle-huaihai-1948",
+    "battle_name": "淮海战役",
+    "sequence": "089",
+    "confidence": "strong",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_089_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-huaihai-1948_scan_089_strong.jpg",
+    "size_bytes": 1789265
+  },
+  {
+    "battle_id": "battle-huaihai-1948",
+    "battle_name": "淮海战役",
+    "sequence": "095",
+    "confidence": "strong",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_095_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-huaihai-1948_scan_095_strong.jpg",
+    "size_bytes": 2046058
+  },
+  {
+    "battle_id": "battle-liaoshen-1948",
+    "battle_name": "辽沈战役",
+    "sequence": "073",
+    "confidence": "strong",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_073_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-liaoshen-1948_scan_073_strong.jpg",
+    "size_bytes": 1949165
+  },
+  {
+    "battle_id": "battle-liaoshen-1948",
+    "battle_name": "辽沈战役",
+    "sequence": "077",
+    "confidence": "strong",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_077_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-liaoshen-1948_scan_077_strong.jpg",
+    "size_bytes": 1713273
+  },
+  {
+    "battle_id": "battle-liaoshen-1948",
+    "battle_name": "辽沈战役",
+    "sequence": "078",
+    "confidence": "strong",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_078_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-liaoshen-1948_scan_078_strong.jpg",
+    "size_bytes": 1630548
+  },
+  {
+    "battle_id": "battle-liaoshen-1948",
+    "battle_name": "辽沈战役",
+    "sequence": "079",
+    "confidence": "strong",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_079_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-liaoshen-1948_scan_079_strong.jpg",
+    "size_bytes": 1274680
+  },
+  {
+    "battle_id": "battle-liaoshen-1948",
+    "battle_name": "辽沈战役",
+    "sequence": "084",
+    "confidence": "strong",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_084_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-liaoshen-1948_scan_084_strong.jpg",
+    "size_bytes": 2043315
+  },
+  {
+    "battle_id": "battle-liaoshen-1948",
+    "battle_name": "辽沈战役",
+    "sequence": "091",
+    "confidence": "strong",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_091_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-liaoshen-1948_scan_091_strong.jpg",
+    "size_bytes": 1588453
+  },
+  {
+    "battle_id": "battle-liaoshen-1948",
+    "battle_name": "辽沈战役",
+    "sequence": "092",
+    "confidence": "strong",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_092_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-liaoshen-1948_scan_092_strong.jpg",
+    "size_bytes": 1823267
+  },
+  {
+    "battle_id": "battle-liaoshen-1948",
+    "battle_name": "辽沈战役",
+    "sequence": "047",
+    "confidence": "medium",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_047_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-liaoshen-1948_scan_047_medium.jpg",
+    "size_bytes": 1610338
+  },
+  {
+    "battle_id": "battle-liaoshen-1948",
+    "battle_name": "辽沈战役",
+    "sequence": "048",
+    "confidence": "medium",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_048_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-liaoshen-1948_scan_048_medium.jpg",
+    "size_bytes": 2153316
+  },
+  {
+    "battle_id": "battle-liaoshen-1948",
+    "battle_name": "辽沈战役",
+    "sequence": "060",
+    "confidence": "medium",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_060_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-liaoshen-1948_scan_060_medium.jpg",
+    "size_bytes": 2044724
+  },
+  {
+    "battle_id": "battle-liaoshen-1948",
+    "battle_name": "辽沈战役",
+    "sequence": "070",
+    "confidence": "medium",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_070_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-liaoshen-1948_scan_070_medium.jpg",
+    "size_bytes": 1848236
+  },
+  {
+    "battle_id": "battle-liaoshen-1948",
+    "battle_name": "辽沈战役",
+    "sequence": "071",
+    "confidence": "medium",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_071_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-liaoshen-1948_scan_071_medium.jpg",
+    "size_bytes": 2009402
+  },
+  {
+    "battle_id": "battle-menglianggu-1947",
+    "battle_name": "孟良崮战役",
+    "sequence": "039",
+    "confidence": "strong",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_039_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-menglianggu-1947_scan_039_strong.jpg",
+    "size_bytes": 1698458
+  },
+  {
+    "battle_id": "battle-menglianggu-1947",
+    "battle_name": "孟良崮战役",
+    "sequence": "040",
+    "confidence": "strong",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_040_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-menglianggu-1947_scan_040_strong.jpg",
+    "size_bytes": 1764965
+  },
+  {
+    "battle_id": "battle-menglianggu-1947",
+    "battle_name": "孟良崮战役",
+    "sequence": "015",
+    "confidence": "medium",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_015_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-menglianggu-1947_scan_015_medium.jpg",
+    "size_bytes": 1105805
+  },
+  {
+    "battle_id": "battle-menglianggu-1947",
+    "battle_name": "孟良崮战役",
+    "sequence": "033",
+    "confidence": "medium",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_033_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-menglianggu-1947_scan_033_medium.jpg",
+    "size_bytes": 1899551
+  },
+  {
+    "battle_id": "battle-menglianggu-1947",
+    "battle_name": "孟良崮战役",
+    "sequence": "041",
+    "confidence": "medium",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_041_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-menglianggu-1947_scan_041_medium.jpg",
+    "size_bytes": 1157350
+  },
+  {
+    "battle_id": "battle-pingjin-1948",
+    "battle_name": "平津战役",
+    "sequence": "043",
+    "confidence": "strong",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_043_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-pingjin-1948_scan_043_strong.jpg",
+    "size_bytes": 1716472
+  },
+  {
+    "battle_id": "battle-pingjin-1948",
+    "battle_name": "平津战役",
+    "sequence": "068",
+    "confidence": "strong",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_068_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-pingjin-1948_scan_068_strong.jpg",
+    "size_bytes": 1828337
+  },
+  {
+    "battle_id": "battle-pingjin-1948",
+    "battle_name": "平津战役",
+    "sequence": "073",
+    "confidence": "strong",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_073_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-pingjin-1948_scan_073_strong.jpg",
+    "size_bytes": 1949165
+  },
+  {
+    "battle_id": "battle-pingjin-1948",
+    "battle_name": "平津战役",
+    "sequence": "078",
+    "confidence": "strong",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_078_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-pingjin-1948_scan_078_strong.jpg",
+    "size_bytes": 1630548
+  },
+  {
+    "battle_id": "battle-pingjin-1948",
+    "battle_name": "平津战役",
+    "sequence": "082",
+    "confidence": "strong",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_082_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-pingjin-1948_scan_082_strong.jpg",
+    "size_bytes": 1894436
+  },
+  {
+    "battle_id": "battle-pingjin-1948",
+    "battle_name": "平津战役",
+    "sequence": "084",
+    "confidence": "strong",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_084_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-pingjin-1948_scan_084_strong.jpg",
+    "size_bytes": 2043315
+  },
+  {
+    "battle_id": "battle-pingjin-1948",
+    "battle_name": "平津战役",
+    "sequence": "085",
+    "confidence": "strong",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_085_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-pingjin-1948_scan_085_strong.jpg",
+    "size_bytes": 2089418
+  },
+  {
+    "battle_id": "battle-pingjin-1948",
+    "battle_name": "平津战役",
+    "sequence": "086",
+    "confidence": "strong",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_086_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-pingjin-1948_scan_086_strong.jpg",
+    "size_bytes": 1824793
+  },
+  {
+    "battle_id": "battle-pingjin-1948",
+    "battle_name": "平津战役",
+    "sequence": "087",
+    "confidence": "strong",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_087_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-pingjin-1948_scan_087_strong.jpg",
+    "size_bytes": 1203127
+  },
+  {
+    "battle_id": "battle-pingjin-1948",
+    "battle_name": "平津战役",
+    "sequence": "091",
+    "confidence": "strong",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_091_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-pingjin-1948_scan_091_strong.jpg",
+    "size_bytes": 1588453
+  },
+  {
+    "battle_id": "battle-pingjin-1948",
+    "battle_name": "平津战役",
+    "sequence": "092",
+    "confidence": "strong",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_092_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-pingjin-1948_scan_092_strong.jpg",
+    "size_bytes": 1823267
+  },
+  {
+    "battle_id": "battle-pingjin-1948",
+    "battle_name": "平津战役",
+    "sequence": "099",
+    "confidence": "strong",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_099_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-pingjin-1948_scan_099_strong.jpg",
+    "size_bytes": 1662177
+  },
+  {
+    "battle_id": "battle-pingjin-1948",
+    "battle_name": "平津战役",
+    "sequence": "026",
+    "confidence": "medium",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_026_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-pingjin-1948_scan_026_medium.jpg",
+    "size_bytes": 1915465
+  },
+  {
+    "battle_id": "battle-pingjin-1948",
+    "battle_name": "平津战役",
+    "sequence": "027",
+    "confidence": "medium",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_027_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-pingjin-1948_scan_027_medium.jpg",
+    "size_bytes": 2073800
+  },
+  {
+    "battle_id": "battle-yangtze-crossing-1949",
+    "battle_name": "渡江战役",
+    "sequence": "082",
+    "confidence": "strong",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_082_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-yangtze-crossing-1949_scan_082_strong.jpg",
+    "size_bytes": 1894436
+  },
+  {
+    "battle_id": "battle-yangtze-crossing-1949",
+    "battle_name": "渡江战役",
+    "sequence": "093",
+    "confidence": "strong",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_093_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-yangtze-crossing-1949_scan_093_strong.jpg",
+    "size_bytes": 1925008
+  },
+  {
+    "battle_id": "battle-yangtze-crossing-1949",
+    "battle_name": "渡江战役",
+    "sequence": "095",
+    "confidence": "strong",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_095_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-yangtze-crossing-1949_scan_095_strong.jpg",
+    "size_bytes": 2046058
+  },
+  {
+    "battle_id": "battle-yangtze-crossing-1949",
+    "battle_name": "渡江战役",
+    "sequence": "096",
+    "confidence": "strong",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_096_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-yangtze-crossing-1949_scan_096_strong.jpg",
+    "size_bytes": 1402377
+  },
+  {
+    "battle_id": "battle-yangtze-crossing-1949",
+    "battle_name": "渡江战役",
+    "sequence": "102",
+    "confidence": "strong",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_102_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-yangtze-crossing-1949_scan_102_strong.jpg",
+    "size_bytes": 1720274
+  },
+  {
+    "battle_id": "battle-yangtze-crossing-1949",
+    "battle_name": "渡江战役",
+    "sequence": "014",
+    "confidence": "medium",
+    "source_image": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_014_original.jpg",
+    "public_path": "/maps/liberation-war-atlas-1945-1950/battle-yangtze-crossing-1949_scan_014_medium.jpg",
+    "size_bytes": 1887533
+  }
+]

@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "index:visuals": "python3 tools/generate_visual_source_index.py"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^4.4.0",
