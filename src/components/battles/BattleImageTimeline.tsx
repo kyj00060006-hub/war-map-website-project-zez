@@ -17,6 +17,12 @@ function SideSnapshot({ label, side }: { label: string; side: BattleImageTimelin
   );
 }
 
+function getStageStatusLabel(status: BattleImageTimelineStep["dataStatus"]) {
+  if (status === "checked") return "资料已整理";
+  if (status === "pending") return "资料整理中";
+  return "资料整理中";
+}
+
 export function BattleImageTimeline({ steps }: BattleImageTimelineProps) {
   const [activeStepId, setActiveStepId] = useState(steps[0]?.id ?? "");
   const [zoomMode, setZoomMode] = useState<"fit" | "wide" | "actual">("fit");
@@ -57,7 +63,7 @@ export function BattleImageTimeline({ steps }: BattleImageTimelineProps) {
       </div>
 
       <aside className="image-timeline-info">
-        <p className="eyebrow">Stage Map / {activeStep.dataStatus}</p>
+        <p className="eyebrow">阶段图 / {getStageStatusLabel(activeStep.dataStatus)}</p>
         <h3>{activeStep.title}</h3>
         <p>{activeStep.summary}</p>
         <div className="timeline-side-grid">

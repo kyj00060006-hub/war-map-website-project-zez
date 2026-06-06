@@ -1,13 +1,13 @@
 import type { BattleFieldAlignmentSummary } from "../types/war";
 
-export const fieldAlignmentPackageRoot = "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/07_字段级证据对齐_v2_ID映射修正版";
+export const fieldAlignmentPackageRoot = "professional_review_package_v2_prefilled/07_字段级证据对齐_v2_ID映射修正版";
 
 export const fieldAlignmentOverallSummary = {
   "totalBattles": 37,
   "readyFields": 312,
   "weakOrSharedFields": 206,
   "missingFields": 0,
-  "reviewPackageRoot": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/07_字段级证据对齐_v2_ID映射修正版"
+  "reviewPackageRoot": "professional_review_package_v2_prefilled/07_字段级证据对齐_v2_ID映射修正版"
 } as const;
 
 export const battleFieldAlignmentSummaries: BattleFieldAlignmentSummary[] = [

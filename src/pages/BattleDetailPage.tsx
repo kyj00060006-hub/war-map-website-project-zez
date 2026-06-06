@@ -1,14 +1,11 @@
 import { Link, Navigate, useParams } from "react-router-dom";
 import { BattleDetailContent } from "../components/battles/BattleDetailContent";
 import { getImageTimelineStepsByBattleId } from "../data/battleImageTimelines";
-import { getFieldAlignmentSummaryByBattleId } from "../data/fieldAlignmentStatus";
-import { getBattleById, getReviewPackageByBattleId, getVisualSourcesForBattle } from "../utils/dataSelectors";
+import { getBattleById, getVisualSourcesForBattle } from "../utils/dataSelectors";
 
 export function BattleDetailPage() {
   const { battleId } = useParams();
   const battle = battleId ? getBattleById(battleId) : undefined;
-  const reviewPackage = battle ? getReviewPackageByBattleId(battle.id) : undefined;
-  const fieldAlignment = battle ? getFieldAlignmentSummaryByBattleId(battle.id) : undefined;
   const visualSources = battle ? getVisualSourcesForBattle(battle) : [];
   const imageTimelineSteps = battle ? getImageTimelineStepsByBattleId(battle.id) : [];
 
@@ -25,8 +22,6 @@ export function BattleDetailPage() {
       <BattleDetailContent
         battle={battle}
         imageTimelineSteps={imageTimelineSteps}
-        reviewPackage={reviewPackage}
-        fieldAlignment={fieldAlignment}
         visualSources={visualSources}
       />
     </main>

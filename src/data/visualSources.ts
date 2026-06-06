@@ -1,6 +1,6 @@
 import type { VisualSourceAsset } from "../types/war";
 
-export const visualSourceRoot = "/Users/kongyujia/Desktop/zez_project/figure";
+export const visualSourceRoot = "figure";
 
 export const visualSourceSummary = {
   "total": 255,
@@ -19,7 +19,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/01_抗战战史_平津平绥平汉津浦徐州_015-023/抗战战史 015 七七事变与平津作战.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/01_抗战战史_平津平绥平汉津浦徐州_015-023/抗战战史 015 七七事变与平津作战.pdf",
     "extension": "pdf",
     "sizeBytes": 136646808,
     "status": "available"
@@ -32,7 +31,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/01_抗战战史_平津平绥平汉津浦徐州_015-023/抗战战史 016 平绥铁路沿线之作战.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/01_抗战战史_平津平绥平汉津浦徐州_015-023/抗战战史 016 平绥铁路沿线之作战.pdf",
     "extension": "pdf",
     "sizeBytes": 185373348,
     "status": "available"
@@ -45,7 +43,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/01_抗战战史_平津平绥平汉津浦徐州_015-023/抗战战史 017 平汉铁路北段沿线之作战.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/01_抗战战史_平津平绥平汉津浦徐州_015-023/抗战战史 017 平汉铁路北段沿线之作战.pdf",
     "extension": "pdf",
     "sizeBytes": 240917618,
     "status": "available"
@@ -58,7 +55,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-xuzhou-1938",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/01_抗战战史_平津平绥平汉津浦徐州_015-023/抗战战史 018 津浦铁路北段沿线之作战1.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/01_抗战战史_平津平绥平汉津浦徐州_015-023/抗战战史 018 津浦铁路北段沿线之作战1.pdf",
     "extension": "pdf",
     "sizeBytes": 102779993,
     "status": "available"
@@ -71,7 +67,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-xuzhou-1938",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/01_抗战战史_平津平绥平汉津浦徐州_015-023/抗战战史 019 津浦铁路北段沿线之作战2.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/01_抗战战史_平津平绥平汉津浦徐州_015-023/抗战战史 019 津浦铁路北段沿线之作战2.pdf",
     "extension": "pdf",
     "sizeBytes": 143874503,
     "status": "available"
@@ -84,7 +79,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-xuzhou-1938",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/01_抗战战史_平津平绥平汉津浦徐州_015-023/抗战战史 020 徐州会战1.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/01_抗战战史_平津平绥平汉津浦徐州_015-023/抗战战史 020 徐州会战1.pdf",
     "extension": "pdf",
     "sizeBytes": 175521291,
     "status": "available"
@@ -97,7 +91,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-xuzhou-1938",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/01_抗战战史_平津平绥平汉津浦徐州_015-023/抗战战史 021 徐州会战2.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/01_抗战战史_平津平绥平汉津浦徐州_015-023/抗战战史 021 徐州会战2.pdf",
     "extension": "pdf",
     "sizeBytes": 152899209,
     "status": "available"
@@ -110,7 +103,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-xuzhou-1938",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/01_抗战战史_平津平绥平汉津浦徐州_015-023/抗战战史 022 徐州会战3.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/01_抗战战史_平津平绥平汉津浦徐州_015-023/抗战战史 022 徐州会战3.pdf",
     "extension": "pdf",
     "sizeBytes": 234120826,
     "status": "available"
@@ -123,7 +115,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-xuzhou-1938",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/01_抗战战史_平津平绥平汉津浦徐州_015-023/抗战战史 023 徐州会战4.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/01_抗战战史_平津平绥平汉津浦徐州_015-023/抗战战史 023 徐州会战4.pdf",
     "extension": "pdf",
     "sizeBytes": 29884308,
     "status": "available"
@@ -136,7 +127,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-shanghai-1937",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 024 淞沪会战1.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 024 淞沪会战1.pdf",
     "extension": "pdf",
     "sizeBytes": 21616911,
     "status": "available"
@@ -149,7 +139,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-shanghai-1937",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 025 淞沪会战2.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 025 淞沪会战2.pdf",
     "extension": "pdf",
     "sizeBytes": 44095444,
     "status": "available"
@@ -162,7 +151,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-shanghai-1937",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 026 淞沪会战3.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 026 淞沪会战3.pdf",
     "extension": "pdf",
     "sizeBytes": 37563930,
     "status": "available"
@@ -175,7 +163,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 027 太原会战1.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 027 太原会战1.pdf",
     "extension": "pdf",
     "sizeBytes": 15366503,
     "status": "available"
@@ -188,7 +175,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 028 太原会战2.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 028 太原会战2.pdf",
     "extension": "pdf",
     "sizeBytes": 32524241,
     "status": "available"
@@ -201,7 +187,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-wuhan-1938",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 029 武汉会战1.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 029 武汉会战1.pdf",
     "extension": "pdf",
     "sizeBytes": 42787087,
     "status": "available"
@@ -214,7 +199,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-wuhan-1938",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 030 武汉会战2.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 030 武汉会战2.pdf",
     "extension": "pdf",
     "sizeBytes": 41285798,
     "status": "available"
@@ -227,7 +211,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-wuhan-1938",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 031 武汉会战3.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 031 武汉会战3.pdf",
     "extension": "pdf",
     "sizeBytes": 43806537,
     "status": "available"
@@ -240,7 +223,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-wuhan-1938",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 032 武汉会战4.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 032 武汉会战4.pdf",
     "extension": "pdf",
     "sizeBytes": 23540123,
     "status": "available"
@@ -253,7 +235,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-wuhan-1938",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 033 武汉会战5.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 033 武汉会战5.pdf",
     "extension": "pdf",
     "sizeBytes": 25665355,
     "status": "available"
@@ -266,7 +247,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-wuhan-1938",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 034 武汉会战6.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 034 武汉会战6.pdf",
     "extension": "pdf",
     "sizeBytes": 31643806,
     "status": "available"
@@ -279,7 +259,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-wuhan-1938",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 035 武汉会战7.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 035 武汉会战7.pdf",
     "extension": "pdf",
     "sizeBytes": 38513262,
     "status": "available"
@@ -292,7 +271,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-wuhan-1938",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 036 武汉会战8.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 036 武汉会战8.pdf",
     "extension": "pdf",
     "sizeBytes": 39044594,
     "status": "available"
@@ -305,7 +283,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-wuhan-1938",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 037 武汉会战9.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 037 武汉会战9.pdf",
     "extension": "pdf",
     "sizeBytes": 27106766,
     "status": "available"
@@ -318,7 +295,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-wuhan-1938",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 038 武汉会战10.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 038 武汉会战10.pdf",
     "extension": "pdf",
     "sizeBytes": 28578139,
     "status": "available"
@@ -331,7 +307,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 039 闽粤边区之作战1.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 039 闽粤边区之作战1.pdf",
     "extension": "pdf",
     "sizeBytes": 30152761,
     "status": "available"
@@ -344,7 +319,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 040 闽粤边区之作战2.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 040 闽粤边区之作战2.pdf",
     "extension": "pdf",
     "sizeBytes": 37533386,
     "status": "available"
@@ -357,7 +331,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-nanchang-1939",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 041 南昌会战1.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 041 南昌会战1.pdf",
     "extension": "pdf",
     "sizeBytes": 37796027,
     "status": "available"
@@ -370,7 +343,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-nanchang-1939",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 042 南昌会战2.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 042 南昌会战2.pdf",
     "extension": "pdf",
     "sizeBytes": 32374967,
     "status": "available"
@@ -383,7 +355,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 043 随枣会战.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 043 随枣会战.pdf",
     "extension": "pdf",
     "sizeBytes": 40288370,
     "status": "available"
@@ -396,7 +367,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 044 运河垣曲间黄河两岸之作战1.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 044 运河垣曲间黄河两岸之作战1.pdf",
     "extension": "pdf",
     "sizeBytes": 26766821,
     "status": "available"
@@ -409,7 +379,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 045 运河垣曲间黄河两岸之作战2.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 045 运河垣曲间黄河两岸之作战2.pdf",
     "extension": "pdf",
     "sizeBytes": 33822305,
     "status": "available"
@@ -422,7 +391,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-first-changsha-1939",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 046 第一次长沙会战.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 046 第一次长沙会战.pdf",
     "extension": "pdf",
     "sizeBytes": 37571672,
     "status": "available"
@@ -435,7 +403,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-second-changsha-1941",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 047 第二次长沙会战1.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 047 第二次长沙会战1.pdf",
     "extension": "pdf",
     "sizeBytes": 42947193,
     "status": "available"
@@ -448,7 +415,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-second-changsha-1941",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 048 第二次长沙会战2.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 048 第二次长沙会战2.pdf",
     "extension": "pdf",
     "sizeBytes": 35538543,
     "status": "available"
@@ -461,7 +427,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-second-changsha-1941",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 049 第二次长沙会战3.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 049 第二次长沙会战3.pdf",
     "extension": "pdf",
     "sizeBytes": 59809957,
     "status": "available"
@@ -474,7 +439,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-third-changsha-1941",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 050 第三次长沙会战.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/02_抗战战史_淞沪太原武汉长沙等_024-050/抗战战史 050 第三次长沙会战.pdf",
     "extension": "pdf",
     "sizeBytes": 49856501,
     "status": "available"
@@ -487,7 +451,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-south-guangxi-1939",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 051 桂南会战1.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 051 桂南会战1.pdf",
     "extension": "pdf",
     "sizeBytes": 29491444,
     "status": "available"
@@ -500,7 +463,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-south-guangxi-1939",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 052 桂南会战2.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 052 桂南会战2.pdf",
     "extension": "pdf",
     "sizeBytes": 28593654,
     "status": "available"
@@ -513,7 +475,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-south-guangxi-1939",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 053 桂南会战3.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 053 桂南会战3.pdf",
     "extension": "pdf",
     "sizeBytes": 26162106,
     "status": "available"
@@ -526,7 +487,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-south-guangxi-1939",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 054 桂南会战4.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 054 桂南会战4.pdf",
     "extension": "pdf",
     "sizeBytes": 24922453,
     "status": "available"
@@ -539,7 +499,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 055 廿八年冬季攻势1.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 055 廿八年冬季攻势1.pdf",
     "extension": "pdf",
     "sizeBytes": 25152384,
     "status": "available"
@@ -552,7 +511,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 056 廿八年冬季攻势2.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 056 廿八年冬季攻势2.pdf",
     "extension": "pdf",
     "sizeBytes": 27748354,
     "status": "available"
@@ -565,7 +523,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 057 廿八年冬季攻势3.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 057 廿八年冬季攻势3.pdf",
     "extension": "pdf",
     "sizeBytes": 36467721,
     "status": "available"
@@ -578,7 +535,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 058 廿八年冬季攻势4.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 058 廿八年冬季攻势4.pdf",
     "extension": "pdf",
     "sizeBytes": 29546876,
     "status": "available"
@@ -591,7 +547,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 059 廿八年冬季攻势5.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 059 廿八年冬季攻势5.pdf",
     "extension": "pdf",
     "sizeBytes": 21500180,
     "status": "available"
@@ -604,7 +559,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 060 廿八年冬季攻势6.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 060 廿八年冬季攻势6.pdf",
     "extension": "pdf",
     "sizeBytes": 26654065,
     "status": "available"
@@ -617,7 +571,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 061 廿八年冬季攻势7.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 061 廿八年冬季攻势7.pdf",
     "extension": "pdf",
     "sizeBytes": 34656690,
     "status": "available"
@@ -630,7 +583,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 062 廿八年冬季攻势8.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 062 廿八年冬季攻势8.pdf",
     "extension": "pdf",
     "sizeBytes": 29770696,
     "status": "available"
@@ -643,7 +595,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 063 枣宜会战.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 063 枣宜会战.pdf",
     "extension": "pdf",
     "sizeBytes": 64289179,
     "status": "available"
@@ -656,7 +607,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-south-henan-1941",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 064 豫南会战1.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 064 豫南会战1.pdf",
     "extension": "pdf",
     "sizeBytes": 38946698,
     "status": "available"
@@ -669,7 +619,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-south-henan-1941",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 065 豫南会战2.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 065 豫南会战2.pdf",
     "extension": "pdf",
     "sizeBytes": 35803775,
     "status": "available"
@@ -682,7 +631,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-shanggao-1941",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 066 上高会战.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 066 上高会战.pdf",
     "extension": "pdf",
     "sizeBytes": 38355644,
     "status": "available"
@@ -695,7 +643,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-south-shanxi-1941",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 067 晋南会战.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 067 晋南会战.pdf",
     "extension": "pdf",
     "sizeBytes": 71555271,
     "status": "available"
@@ -708,7 +655,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 068 滇缅路之作战.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 068 滇缅路之作战.pdf",
     "extension": "pdf",
     "sizeBytes": 35985612,
     "status": "available"
@@ -721,7 +667,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 069 浙赣会战.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 069 浙赣会战.pdf",
     "extension": "pdf",
     "sizeBytes": 81963532,
     "status": "available"
@@ -734,7 +679,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-west-hubei-1943",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 070 鄂西会战1.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 070 鄂西会战1.pdf",
     "extension": "pdf",
     "sizeBytes": 82248912,
     "status": "available"
@@ -747,7 +691,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-west-hubei-1943",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 071 鄂西会战2.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 071 鄂西会战2.pdf",
     "extension": "pdf",
     "sizeBytes": 75901193,
     "status": "available"
@@ -760,7 +703,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-west-yunnan-1944",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 072 缅北及滇西之作战1.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 072 缅北及滇西之作战1.pdf",
     "extension": "pdf",
     "sizeBytes": 36775050,
     "status": "available"
@@ -773,7 +715,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-west-yunnan-1944",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 073 缅北及滇西之作战2.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 073 缅北及滇西之作战2.pdf",
     "extension": "pdf",
     "sizeBytes": 35435231,
     "status": "available"
@@ -786,7 +727,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-west-yunnan-1944",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 074 缅北及滇西之作战3.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 074 缅北及滇西之作战3.pdf",
     "extension": "pdf",
     "sizeBytes": 41059956,
     "status": "available"
@@ -799,7 +739,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-changde-1943",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 075 常德会战1.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 075 常德会战1.pdf",
     "extension": "pdf",
     "sizeBytes": 54242096,
     "status": "available"
@@ -812,7 +751,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-changde-1943",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 076 常德会战2.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 076 常德会战2.pdf",
     "extension": "pdf",
     "sizeBytes": 42232045,
     "status": "available"
@@ -825,7 +763,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-henan-1944",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 077 豫中会战1.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 077 豫中会战1.pdf",
     "extension": "pdf",
     "sizeBytes": 27265988,
     "status": "available"
@@ -838,7 +775,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-henan-1944",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 078 豫中会战2.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 078 豫中会战2.pdf",
     "extension": "pdf",
     "sizeBytes": 24961366,
     "status": "available"
@@ -851,7 +787,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-henan-1944",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 079 豫中会战3.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 079 豫中会战3.pdf",
     "extension": "pdf",
     "sizeBytes": 31596584,
     "status": "available"
@@ -864,7 +799,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-henan-1944",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 080 豫中会战4.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 080 豫中会战4.pdf",
     "extension": "pdf",
     "sizeBytes": 27863535,
     "status": "available"
@@ -877,7 +811,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-henan-1944",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 081 豫中会战5.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 081 豫中会战5.pdf",
     "extension": "pdf",
     "sizeBytes": 16500310,
     "status": "available"
@@ -890,7 +823,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-henan-1944",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 082 豫中会战6.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 082 豫中会战6.pdf",
     "extension": "pdf",
     "sizeBytes": 20583739,
     "status": "available"
@@ -903,7 +835,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-hunan-1944",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 083 长衡会战.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 083 长衡会战.pdf",
     "extension": "pdf",
     "sizeBytes": 62897883,
     "status": "available"
@@ -916,7 +847,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-guangxi-1944",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 084 桂柳会战.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 084 桂柳会战.pdf",
     "extension": "pdf",
     "sizeBytes": 50455089,
     "status": "available"
@@ -929,7 +859,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 085 湘粤赣边区之作战.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 085 湘粤赣边区之作战.pdf",
     "extension": "pdf",
     "sizeBytes": 20957861,
     "status": "available"
@@ -942,7 +871,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-west-henan-north-hubei-1945",
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 086 豫西鄂北会战.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 086 豫西鄂北会战.pdf",
     "extension": "pdf",
     "sizeBytes": 86082830,
     "status": "available"
@@ -955,7 +883,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 087 湘西会战.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 087 湘西会战.pdf",
     "extension": "pdf",
     "sizeBytes": 65965845,
     "status": "available"
@@ -968,7 +895,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 088 南战场游击.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 088 南战场游击.pdf",
     "extension": "pdf",
     "sizeBytes": 31194815,
     "status": "available"
@@ -981,7 +907,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 089 鲁苏游击战.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 089 鲁苏游击战.pdf",
     "extension": "pdf",
     "sizeBytes": 47725346,
     "status": "available"
@@ -994,7 +919,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 090 冀察游击战.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 090 冀察游击战.pdf",
     "extension": "pdf",
     "sizeBytes": 59317937,
     "status": "available"
@@ -1007,7 +931,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 091 晋绥游击战1.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 091 晋绥游击战1.pdf",
     "extension": "pdf",
     "sizeBytes": 35139394,
     "status": "available"
@@ -1020,7 +943,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 092 晋绥游击战2.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 092 晋绥游击战2.pdf",
     "extension": "pdf",
     "sizeBytes": 27613372,
     "status": "available"
@@ -1033,7 +955,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 093 晋绥游击战3.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 093 晋绥游击战3.pdf",
     "extension": "pdf",
     "sizeBytes": 34218272,
     "status": "available"
@@ -1046,7 +967,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 094 各地游击战1.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 094 各地游击战1.pdf",
     "extension": "pdf",
     "sizeBytes": 34662075,
     "status": "available"
@@ -1059,7 +979,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 095 各地游击战2.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 095 各地游击战2.pdf",
     "extension": "pdf",
     "sizeBytes": 34553589,
     "status": "available"
@@ -1072,7 +991,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 096 各地游击战3.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 096 各地游击战3.pdf",
     "extension": "pdf",
     "sizeBytes": 34775836,
     "status": "available"
@@ -1085,7 +1003,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 097 各地游击战4.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 097 各地游击战4.pdf",
     "extension": "pdf",
     "sizeBytes": 33064473,
     "status": "available"
@@ -1098,7 +1015,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 098 各地游击战5.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 098 各地游击战5.pdf",
     "extension": "pdf",
     "sizeBytes": 28566911,
     "status": "available"
@@ -1111,7 +1027,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 099 受降1.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 099 受降1.pdf",
     "extension": "pdf",
     "sizeBytes": 35769226,
     "status": "available"
@@ -1124,7 +1039,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 100 受降2.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 100 受降2.pdf",
     "extension": "pdf",
     "sizeBytes": 36646418,
     "status": "available"
@@ -1137,7 +1051,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "01_抗日战争",
     "relativePath": "01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 101 复员.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/01_抗日战争/03_抗战战史_后期会战游击受降_051-101/抗战战史 101 复员.pdf",
     "extension": "pdf",
     "sizeBytes": 12492485,
     "status": "available"
@@ -1150,7 +1063,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/01_东北战场_1946-1948/东北我军一九四七年夏季攻势要图 （1947年5月13日 - 7月1日）.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/01_东北战场_1946-1948/东北我军一九四七年夏季攻势要图 （1947年5月13日 - 7月1日）.jpg",
     "extension": "jpg",
     "sizeBytes": 8715082,
     "status": "available"
@@ -1163,7 +1075,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/01_东北战场_1946-1948/东北我军冬季攻势经过要图 (1947年12月 14日 -1948年3月15日）.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/01_东北战场_1946-1948/东北我军冬季攻势经过要图 (1947年12月 14日 -1948年3月15日）.jpg",
     "extension": "jpg",
     "sizeBytes": 7348692,
     "status": "available"
@@ -1176,7 +1087,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/01_东北战场_1946-1948/东北我军抗击国民党军进攻经过要图 （1946年2月一6月7日）.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/01_东北战场_1946-1948/东北我军抗击国民党军进攻经过要图 （1946年2月一6月7日）.jpg",
     "extension": "jpg",
     "sizeBytes": 8748558,
     "status": "available"
@@ -1189,7 +1099,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/01_东北战场_1946-1948/东北我军秋季攻势经过要图 （1947年9月14日一11月5日）.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/01_东北战场_1946-1948/东北我军秋季攻势经过要图 （1947年9月14日一11月5日）.jpg",
     "extension": "jpg",
     "sizeBytes": 7444000,
     "status": "available"
@@ -1202,7 +1111,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-liaoshen-1948",
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/02_辽沈战役/《辽沈战役图片集》.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/02_辽沈战役/《辽沈战役图片集》.pdf",
     "extension": "pdf",
     "sizeBytes": 21317605,
     "status": "available"
@@ -1215,7 +1123,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-liaoshen-1948",
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/02_辽沈战役/辽沈战役 第三阶段经过要图 (1948年10月28日 -11月2日）.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/02_辽沈战役/辽沈战役 第三阶段经过要图 (1948年10月28日 -11月2日）.jpg",
     "extension": "jpg",
     "sizeBytes": 7297894,
     "status": "available"
@@ -1228,7 +1135,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-liaoshen-1948",
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/02_辽沈战役/辽沈战役前敌我态势图 （1948年9月11日）.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/02_辽沈战役/辽沈战役前敌我态势图 （1948年9月11日）.jpg",
     "extension": "jpg",
     "sizeBytes": 6708482,
     "status": "available"
@@ -1241,7 +1147,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-liaoshen-1948",
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/02_辽沈战役/辽沈战役第一阶段经过要图 （1948年9月12日一10月 20日）.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/02_辽沈战役/辽沈战役第一阶段经过要图 （1948年9月12日一10月 20日）.jpg",
     "extension": "jpg",
     "sizeBytes": 7596724,
     "status": "available"
@@ -1254,7 +1159,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-liaoshen-1948",
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/02_辽沈战役/辽沈战役第二阶段经过要图 （1948年10月20日一28日）.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/02_辽沈战役/辽沈战役第二阶段经过要图 （1948年10月20日一28日）.jpg",
     "extension": "jpg",
     "sizeBytes": 6992881,
     "status": "available"
@@ -1267,7 +1171,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-huaihai-1948",
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/03_淮海战役/淮海之战.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/03_淮海战役/淮海之战.pdf",
     "extension": "pdf",
     "sizeBytes": 26868178,
     "status": "available"
@@ -1280,7 +1183,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-huaihai-1948",
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/03_淮海战役/淮海战役图片集.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/03_淮海战役/淮海战役图片集.pdf",
     "extension": "pdf",
     "sizeBytes": 25274425,
     "status": "available"
@@ -1293,7 +1195,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-huaihai-1948",
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/03_淮海战役/淮海战役我军决心图.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/03_淮海战役/淮海战役我军决心图.jpg",
     "extension": "jpg",
     "sizeBytes": 40046488,
     "status": "available"
@@ -1306,7 +1207,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-huaihai-1948",
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/03_淮海战役/淮海战役第一阶段经过要图（1948年11月7日-22日）.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/03_淮海战役/淮海战役第一阶段经过要图（1948年11月7日-22日）.jpg",
     "extension": "jpg",
     "sizeBytes": 49706416,
     "status": "available"
@@ -1319,7 +1219,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-huaihai-1948",
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/03_淮海战役/淮海战役第三阶段经过要图（1949年1月6日-10日）.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/03_淮海战役/淮海战役第三阶段经过要图（1949年1月6日-10日）.jpg",
     "extension": "jpg",
     "sizeBytes": 20724757,
     "status": "available"
@@ -1332,7 +1231,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-huaihai-1948",
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/03_淮海战役/淮海战役第二阶段经过要图（1948年11月25日-12月15日）.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/03_淮海战役/淮海战役第二阶段经过要图（1948年11月25日-12月15日）.jpg",
     "extension": "jpg",
     "sizeBytes": 45713185,
     "status": "available"
@@ -1345,7 +1243,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-pingjin-1948",
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/04_平津战役/《历史，在北平拐弯》.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/04_平津战役/《历史，在北平拐弯》.pdf",
     "extension": "pdf",
     "sizeBytes": 20576337,
     "status": "available"
@@ -1358,7 +1255,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-pingjin-1948",
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/04_平津战役/国民党军受编位置和解放军部署图 （1949年1月22日—31日）.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/04_平津战役/国民党军受编位置和解放军部署图 （1949年1月22日—31日）.jpg",
     "extension": "jpg",
     "sizeBytes": 7719568,
     "status": "available"
@@ -1371,7 +1267,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-pingjin-1948",
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/04_平津战役/平津战役前敌我态势图 （1948年11月28日）.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/04_平津战役/平津战役前敌我态势图 （1948年11月28日）.jpg",
     "extension": "jpg",
     "sizeBytes": 7221397,
     "status": "available"
@@ -1384,7 +1279,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-pingjin-1948",
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/04_平津战役/平津战役图片集.pdf",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/04_平津战役/平津战役图片集.pdf",
     "extension": "pdf",
     "sizeBytes": 21723605,
     "status": "available"
@@ -1397,7 +1291,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-pingjin-1948",
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/04_平津战役/平津战役第一阶段经过要图 （1948 年11月29日-12月20日）.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/04_平津战役/平津战役第一阶段经过要图 （1948 年11月29日-12月20日）.jpg",
     "extension": "jpg",
     "sizeBytes": 7586725,
     "status": "available"
@@ -1410,7 +1303,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-pingjin-1948",
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/04_平津战役/平津战役第二阶段经过要图 (1948年12月21日 -1949年 1月15日）.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/04_平津战役/平津战役第二阶段经过要图 (1948年12月21日 -1949年 1月15日）.jpg",
     "extension": "jpg",
     "sizeBytes": 7547098,
     "status": "available"
@@ -1423,7 +1315,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/05_其他战役_邯郸莱芜/莱芜战役经过要图 （1947年2月20日 一 23日）.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/05_其他战役_邯郸莱芜/莱芜战役经过要图 （1947年2月20日 一 23日）.jpg",
     "extension": "jpg",
     "sizeBytes": 8350829,
     "status": "available"
@@ -1436,7 +1327,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/05_其他战役_邯郸莱芜/邯郸战役经过要图 （1945年10月 24日- 11月2日）.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/05_其他战役_邯郸莱芜/邯郸战役经过要图 （1945年10月 24日- 11月2日）.jpg",
     "extension": "jpg",
     "sizeBytes": 7956635,
     "status": "available"
@@ -1449,7 +1339,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/图例_原始JPG/legend_图例_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/图例_原始JPG/legend_图例_original.jpg",
     "extension": "jpg",
     "sizeBytes": 508783,
     "status": "available"
@@ -1462,7 +1351,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_001_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_001_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1474399,
     "status": "available"
@@ -1475,7 +1363,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_002_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_002_original.jpg",
     "extension": "jpg",
     "sizeBytes": 4415068,
     "status": "available"
@@ -1488,7 +1375,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_003_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_003_original.jpg",
     "extension": "jpg",
     "sizeBytes": 3946704,
     "status": "available"
@@ -1501,7 +1387,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_004_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_004_original.jpg",
     "extension": "jpg",
     "sizeBytes": 2052129,
     "status": "available"
@@ -1514,7 +1399,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_005_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_005_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1833307,
     "status": "available"
@@ -1527,7 +1411,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_006_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_006_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1659588,
     "status": "available"
@@ -1540,7 +1423,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_007_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_007_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1721390,
     "status": "available"
@@ -1553,7 +1435,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_008_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_008_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1442034,
     "status": "available"
@@ -1566,7 +1447,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_009_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_009_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1572262,
     "status": "available"
@@ -1579,7 +1459,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_010_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_010_original.jpg",
     "extension": "jpg",
     "sizeBytes": 2095997,
     "status": "available"
@@ -1592,7 +1471,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_011_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_011_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1783029,
     "status": "available"
@@ -1605,7 +1483,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_012_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_012_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1557789,
     "status": "available"
@@ -1618,7 +1495,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_013_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_013_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1256053,
     "status": "available"
@@ -1631,7 +1507,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_014_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_014_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1887533,
     "status": "available"
@@ -1644,7 +1519,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_015_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_015_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1105805,
     "status": "available"
@@ -1657,7 +1531,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_016_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_016_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1727758,
     "status": "available"
@@ -1670,7 +1543,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_017_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_017_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1936276,
     "status": "available"
@@ -1683,7 +1555,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_018_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_018_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1724618,
     "status": "available"
@@ -1696,7 +1567,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_019_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_019_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1804326,
     "status": "available"
@@ -1709,7 +1579,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_020_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_020_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1969012,
     "status": "available"
@@ -1722,7 +1591,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_021_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_021_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1762675,
     "status": "available"
@@ -1735,7 +1603,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_022_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_022_original.jpg",
     "extension": "jpg",
     "sizeBytes": 2076827,
     "status": "available"
@@ -1748,7 +1615,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_023_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_023_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1590643,
     "status": "available"
@@ -1761,7 +1627,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_024_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_024_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1674594,
     "status": "available"
@@ -1774,7 +1639,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_025_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_025_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1541142,
     "status": "available"
@@ -1787,7 +1651,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_026_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_026_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1915465,
     "status": "available"
@@ -1800,7 +1663,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_027_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_027_original.jpg",
     "extension": "jpg",
     "sizeBytes": 2073800,
     "status": "available"
@@ -1813,7 +1675,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_028_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_028_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1577177,
     "status": "available"
@@ -1826,7 +1687,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_029_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_029_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1532445,
     "status": "available"
@@ -1839,7 +1699,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_030_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_030_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1757137,
     "status": "available"
@@ -1852,7 +1711,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_031_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_031_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1968534,
     "status": "available"
@@ -1865,7 +1723,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_032_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_032_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1861302,
     "status": "available"
@@ -1878,7 +1735,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_033_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_033_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1899551,
     "status": "available"
@@ -1891,7 +1747,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_034_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_034_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1802391,
     "status": "available"
@@ -1904,7 +1759,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_035_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_035_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1878191,
     "status": "available"
@@ -1917,7 +1771,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_036_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_036_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1808006,
     "status": "available"
@@ -1930,7 +1783,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_037_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_037_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1244102,
     "status": "available"
@@ -1943,7 +1795,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_038_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_038_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1695098,
     "status": "available"
@@ -1956,7 +1807,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_039_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_039_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1698458,
     "status": "available"
@@ -1969,7 +1819,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_040_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_040_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1764965,
     "status": "available"
@@ -1982,7 +1831,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_041_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_041_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1157350,
     "status": "available"
@@ -1995,7 +1843,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_042_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_042_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1674504,
     "status": "available"
@@ -2008,7 +1855,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_043_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_043_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1716472,
     "status": "available"
@@ -2021,7 +1867,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_044_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_044_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1842088,
     "status": "available"
@@ -2034,7 +1879,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_045_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_045_original.jpg",
     "extension": "jpg",
     "sizeBytes": 2176861,
     "status": "available"
@@ -2047,7 +1891,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_046_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_046_original.jpg",
     "extension": "jpg",
     "sizeBytes": 2288180,
     "status": "available"
@@ -2060,7 +1903,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_047_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_047_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1610338,
     "status": "available"
@@ -2073,7 +1915,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_048_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_048_original.jpg",
     "extension": "jpg",
     "sizeBytes": 2153316,
     "status": "available"
@@ -2086,7 +1927,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_049_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_049_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1876262,
     "status": "available"
@@ -2099,7 +1939,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_050_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_050_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1939687,
     "status": "available"
@@ -2112,7 +1951,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_051_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_051_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1892767,
     "status": "available"
@@ -2125,7 +1963,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_052_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_052_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1539538,
     "status": "available"
@@ -2138,7 +1975,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_053_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_053_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1459874,
     "status": "available"
@@ -2151,7 +1987,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_054_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_054_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1786289,
     "status": "available"
@@ -2164,7 +1999,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_055_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_055_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1686050,
     "status": "available"
@@ -2177,7 +2011,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_056_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_056_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1979251,
     "status": "available"
@@ -2190,7 +2023,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_057_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_057_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1491744,
     "status": "available"
@@ -2203,7 +2035,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_058_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_058_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1581810,
     "status": "available"
@@ -2216,7 +2047,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_059_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_059_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1746515,
     "status": "available"
@@ -2229,7 +2059,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_060_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_060_original.jpg",
     "extension": "jpg",
     "sizeBytes": 2044724,
     "status": "available"
@@ -2242,7 +2071,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_061_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_061_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1511064,
     "status": "available"
@@ -2255,7 +2083,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_062_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_062_original.jpg",
     "extension": "jpg",
     "sizeBytes": 2022301,
     "status": "available"
@@ -2268,7 +2095,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_063_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_063_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1422819,
     "status": "available"
@@ -2281,7 +2107,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_064_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_064_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1470557,
     "status": "available"
@@ -2294,7 +2119,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_065_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_065_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1781102,
     "status": "available"
@@ -2307,7 +2131,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_066_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_066_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1739487,
     "status": "available"
@@ -2320,7 +2143,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_067_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_067_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1900480,
     "status": "available"
@@ -2333,7 +2155,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_068_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_068_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1828337,
     "status": "available"
@@ -2346,7 +2167,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_069_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_069_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1787959,
     "status": "available"
@@ -2359,7 +2179,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_070_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_070_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1848236,
     "status": "available"
@@ -2372,7 +2191,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_071_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_071_original.jpg",
     "extension": "jpg",
     "sizeBytes": 2009402,
     "status": "available"
@@ -2385,7 +2203,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_072_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_072_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1764721,
     "status": "available"
@@ -2398,7 +2215,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_073_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_073_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1949165,
     "status": "available"
@@ -2411,7 +2227,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_074_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_074_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1751583,
     "status": "available"
@@ -2424,7 +2239,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_075_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_075_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1871664,
     "status": "available"
@@ -2437,7 +2251,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_076_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_076_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1722184,
     "status": "available"
@@ -2450,7 +2263,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_077_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_077_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1713273,
     "status": "available"
@@ -2463,7 +2275,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_078_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_078_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1630548,
     "status": "available"
@@ -2476,7 +2287,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_079_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_079_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1274680,
     "status": "available"
@@ -2489,7 +2299,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_080_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_080_original.jpg",
     "extension": "jpg",
     "sizeBytes": 2036775,
     "status": "available"
@@ -2502,7 +2311,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_081_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_081_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1925439,
     "status": "available"
@@ -2515,7 +2323,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_082_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_082_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1894436,
     "status": "available"
@@ -2528,7 +2335,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_083_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_083_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1909429,
     "status": "available"
@@ -2541,7 +2347,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_084_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_084_original.jpg",
     "extension": "jpg",
     "sizeBytes": 2043315,
     "status": "available"
@@ -2554,7 +2359,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_085_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_085_original.jpg",
     "extension": "jpg",
     "sizeBytes": 2089418,
     "status": "available"
@@ -2567,7 +2371,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_086_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_086_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1824793,
     "status": "available"
@@ -2580,7 +2383,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_087_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_087_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1203127,
     "status": "available"
@@ -2593,7 +2395,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_088_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_088_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1927559,
     "status": "available"
@@ -2606,7 +2407,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_089_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_089_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1789265,
     "status": "available"
@@ -2619,7 +2419,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_090_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_090_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1624666,
     "status": "available"
@@ -2632,7 +2431,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_091_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_091_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1588453,
     "status": "available"
@@ -2645,7 +2443,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_092_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_092_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1823267,
     "status": "available"
@@ -2658,7 +2455,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_093_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_093_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1925008,
     "status": "available"
@@ -2671,7 +2467,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_094_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_094_original.jpg",
     "extension": "jpg",
     "sizeBytes": 2131449,
     "status": "available"
@@ -2684,7 +2479,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_095_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_095_original.jpg",
     "extension": "jpg",
     "sizeBytes": 2046058,
     "status": "available"
@@ -2697,7 +2491,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_096_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_096_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1402377,
     "status": "available"
@@ -2710,7 +2503,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_097_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_097_original.jpg",
     "extension": "jpg",
     "sizeBytes": 2191010,
     "status": "available"
@@ -2723,7 +2515,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_098_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_098_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1630726,
     "status": "available"
@@ -2736,7 +2527,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_099_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_099_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1662177,
     "status": "available"
@@ -2749,7 +2539,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_100_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_100_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1850429,
     "status": "available"
@@ -2762,7 +2551,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_101_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_101_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1812717,
     "status": "available"
@@ -2775,7 +2563,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_102_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_102_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1720274,
     "status": "available"
@@ -2788,7 +2575,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_103_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_103_original.jpg",
     "extension": "jpg",
     "sizeBytes": 2032623,
     "status": "available"
@@ -2801,7 +2587,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_104_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_104_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1850425,
     "status": "available"
@@ -2814,7 +2599,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_105_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_105_original.jpg",
     "extension": "jpg",
     "sizeBytes": 2075906,
     "status": "available"
@@ -2827,7 +2611,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_106_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_106_original.jpg",
     "extension": "jpg",
     "sizeBytes": 2114769,
     "status": "available"
@@ -2840,7 +2623,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_107_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_107_original.jpg",
     "extension": "jpg",
     "sizeBytes": 2153458,
     "status": "available"
@@ -2853,7 +2635,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_108_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_108_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1839848,
     "status": "available"
@@ -2866,7 +2647,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_109_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_109_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1593856,
     "status": "available"
@@ -2879,7 +2659,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_110_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_110_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1061199,
     "status": "available"
@@ -2892,7 +2671,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_111_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_111_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1484881,
     "status": "available"
@@ -2905,7 +2683,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "02_解放战争",
     "relativePath": "02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_112_original.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/02_解放战争/专家新增_人民解放战争时期图册_1945-1950/扫描页_原始JPG/liberation_war_atlas_1945-1950_page_112_original.jpg",
     "extension": "jpg",
     "sizeBytes": 1597382,
     "status": "available"
@@ -2918,7 +2695,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "03_抗美援朝",
     "relativePath": "03_抗美援朝/01_抗美援朝_全程态势图/01_第一次战役前敌我态势图.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/03_抗美援朝/01_抗美援朝_全程态势图/01_第一次战役前敌我态势图.jpg",
     "extension": "jpg",
     "sizeBytes": 14223949,
     "status": "available"
@@ -2931,7 +2707,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "03_抗美援朝",
     "relativePath": "03_抗美援朝/01_抗美援朝_全程态势图/02_第一次战役经过要图.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/03_抗美援朝/01_抗美援朝_全程态势图/02_第一次战役经过要图.jpg",
     "extension": "jpg",
     "sizeBytes": 25799221,
     "status": "available"
@@ -2944,7 +2719,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "03_抗美援朝",
     "relativePath": "03_抗美援朝/01_抗美援朝_全程态势图/03_第二次战役西线作战经过要图.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/03_抗美援朝/01_抗美援朝_全程态势图/03_第二次战役西线作战经过要图.jpg",
     "extension": "jpg",
     "sizeBytes": 16354143,
     "status": "available"
@@ -2957,7 +2731,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "03_抗美援朝",
     "relativePath": "03_抗美援朝/01_抗美援朝_全程态势图/04_第二次战役东线作战经过要图.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/03_抗美援朝/01_抗美援朝_全程态势图/04_第二次战役东线作战经过要图.jpg",
     "extension": "jpg",
     "sizeBytes": 6852237,
     "status": "available"
@@ -2970,7 +2743,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "03_抗美援朝",
     "relativePath": "03_抗美援朝/01_抗美援朝_全程态势图/04_第二次战役东线作战经过要图_02.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/03_抗美援朝/01_抗美援朝_全程态势图/04_第二次战役东线作战经过要图_02.jpg",
     "extension": "jpg",
     "sizeBytes": 11122346,
     "status": "available"
@@ -2983,7 +2755,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "03_抗美援朝",
     "relativePath": "03_抗美援朝/01_抗美援朝_全程态势图/05_第三次战役经过要图.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/03_抗美援朝/01_抗美援朝_全程态势图/05_第三次战役经过要图.jpg",
     "extension": "jpg",
     "sizeBytes": 21418871,
     "status": "available"
@@ -2996,7 +2767,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "03_抗美援朝",
     "relativePath": "03_抗美援朝/01_抗美援朝_全程态势图/06_第四次战役第一阶段作战经过要图.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/03_抗美援朝/01_抗美援朝_全程态势图/06_第四次战役第一阶段作战经过要图.jpg",
     "extension": "jpg",
     "sizeBytes": 18944388,
     "status": "available"
@@ -3009,7 +2779,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "03_抗美援朝",
     "relativePath": "03_抗美援朝/01_抗美援朝_全程态势图/07_第四次战役第三阶段作战经过要图.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/03_抗美援朝/01_抗美援朝_全程态势图/07_第四次战役第三阶段作战经过要图.jpg",
     "extension": "jpg",
     "sizeBytes": 21397015,
     "status": "available"
@@ -3022,7 +2791,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "03_抗美援朝",
     "relativePath": "03_抗美援朝/01_抗美援朝_全程态势图/08_第五次战役第一阶段作战经过要图.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/03_抗美援朝/01_抗美援朝_全程态势图/08_第五次战役第一阶段作战经过要图.jpg",
     "extension": "jpg",
     "sizeBytes": 19806217,
     "status": "available"
@@ -3035,7 +2803,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "03_抗美援朝",
     "relativePath": "03_抗美援朝/01_抗美援朝_全程态势图/09_第五次战役第二阶段作战经过要图.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/03_抗美援朝/01_抗美援朝_全程态势图/09_第五次战役第二阶段作战经过要图.jpg",
     "extension": "jpg",
     "sizeBytes": 20527350,
     "status": "available"
@@ -3048,7 +2815,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "03_抗美援朝",
     "relativePath": "03_抗美援朝/01_抗美援朝_全程态势图/10_第五次战役转移阶段作战经过要图.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/03_抗美援朝/01_抗美援朝_全程态势图/10_第五次战役转移阶段作战经过要图.jpg",
     "extension": "jpg",
     "sizeBytes": 19761006,
     "status": "available"
@@ -3061,7 +2827,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "03_抗美援朝",
     "relativePath": "03_抗美援朝/01_抗美援朝_全程态势图/11_1951年6月中旬正面战线敌我态势图.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/03_抗美援朝/01_抗美援朝_全程态势图/11_1951年6月中旬正面战线敌我态势图.jpg",
     "extension": "jpg",
     "sizeBytes": 21381792,
     "status": "available"
@@ -3074,7 +2839,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "03_抗美援朝",
     "relativePath": "03_抗美援朝/01_抗美援朝_全程态势图/12_1951年7月27日军事分界线图.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/03_抗美援朝/01_抗美援朝_全程态势图/12_1951年7月27日军事分界线图.jpg",
     "extension": "jpg",
     "sizeBytes": 11250258,
     "status": "available"
@@ -3087,7 +2851,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "03_抗美援朝",
     "relativePath": "03_抗美援朝/01_抗美援朝_全程态势图/13_1951年粉碎敌人夏季攻势经过要图.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/03_抗美援朝/01_抗美援朝_全程态势图/13_1951年粉碎敌人夏季攻势经过要图.jpg",
     "extension": "jpg",
     "sizeBytes": 14495640,
     "status": "available"
@@ -3100,7 +2863,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "03_抗美援朝",
     "relativePath": "03_抗美援朝/01_抗美援朝_全程态势图/14_1951年粉碎敌人秋季攻势西线经过要图.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/03_抗美援朝/01_抗美援朝_全程态势图/14_1951年粉碎敌人秋季攻势西线经过要图.jpg",
     "extension": "jpg",
     "sizeBytes": 8467743,
     "status": "available"
@@ -3113,7 +2875,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "03_抗美援朝",
     "relativePath": "03_抗美援朝/01_抗美援朝_全程态势图/14_1951年粉碎敌人秋季攻势西线经过要图_02.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/03_抗美援朝/01_抗美援朝_全程态势图/14_1951年粉碎敌人秋季攻势西线经过要图_02.jpg",
     "extension": "jpg",
     "sizeBytes": 14853401,
     "status": "available"
@@ -3126,7 +2887,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "03_抗美援朝",
     "relativePath": "03_抗美援朝/01_抗美援朝_全程态势图/15_1951年粉碎敌人秋季攻势东线经过要图.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/03_抗美援朝/01_抗美援朝_全程态势图/15_1951年粉碎敌人秋季攻势东线经过要图.jpg",
     "extension": "jpg",
     "sizeBytes": 10241991,
     "status": "available"
@@ -3139,7 +2899,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "03_抗美援朝",
     "relativePath": "03_抗美援朝/01_抗美援朝_全程态势图/16_反绞杀战期间我军对空防御示意图.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/03_抗美援朝/01_抗美援朝_全程态势图/16_反绞杀战期间我军对空防御示意图.jpg",
     "extension": "jpg",
     "sizeBytes": 9020224,
     "status": "available"
@@ -3152,7 +2911,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "03_抗美援朝",
     "relativePath": "03_抗美援朝/01_抗美援朝_全程态势图/16_反绞杀战期间我军对空防御示意图_02.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/03_抗美援朝/01_抗美援朝_全程态势图/16_反绞杀战期间我军对空防御示意图_02.jpg",
     "extension": "jpg",
     "sizeBytes": 16447841,
     "status": "available"
@@ -3165,7 +2923,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "03_抗美援朝",
     "relativePath": "03_抗美援朝/01_抗美援朝_全程态势图/17_1952年美军在朝鲜战场散布细菌地域略图.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/03_抗美援朝/01_抗美援朝_全程态势图/17_1952年美军在朝鲜战场散布细菌地域略图.jpg",
     "extension": "jpg",
     "sizeBytes": 14384949,
     "status": "available"
@@ -3178,7 +2935,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "03_抗美援朝",
     "relativePath": "03_抗美援朝/01_抗美援朝_全程态势图/18_1952年美军在我国东北地区散布细菌地域略图.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/03_抗美援朝/01_抗美援朝_全程态势图/18_1952年美军在我国东北地区散布细菌地域略图.jpg",
     "extension": "jpg",
     "sizeBytes": 11430777,
     "status": "available"
@@ -3191,7 +2947,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "03_抗美援朝",
     "relativePath": "03_抗美援朝/01_抗美援朝_全程态势图/19_1952年秋季战术反击作战要图.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/03_抗美援朝/01_抗美援朝_全程态势图/19_1952年秋季战术反击作战要图.jpg",
     "extension": "jpg",
     "sizeBytes": 11639291,
     "status": "available"
@@ -3204,7 +2959,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-shangganling-1952",
     "sourceGroup": "03_抗美援朝",
     "relativePath": "03_抗美援朝/01_抗美援朝_全程态势图/20_上甘岭战役要图.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/03_抗美援朝/01_抗美援朝_全程态势图/20_上甘岭战役要图.jpg",
     "extension": "jpg",
     "sizeBytes": 10331396,
     "status": "available"
@@ -3217,7 +2971,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-shangganling-1952",
     "sourceGroup": "03_抗美援朝",
     "relativePath": "03_抗美援朝/01_抗美援朝_全程态势图/20_上甘岭战役要图_02.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/03_抗美援朝/01_抗美援朝_全程态势图/20_上甘岭战役要图_02.jpg",
     "extension": "jpg",
     "sizeBytes": 12608416,
     "status": "available"
@@ -3230,7 +2983,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "03_抗美援朝",
     "relativePath": "03_抗美援朝/01_抗美援朝_全程态势图/21_1953年夏季反击战役经过要图.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/03_抗美援朝/01_抗美援朝_全程态势图/21_1953年夏季反击战役经过要图.jpg",
     "extension": "jpg",
     "sizeBytes": 21527956,
     "status": "available"
@@ -3243,7 +2995,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-kumsong-1953",
     "sourceGroup": "03_抗美援朝",
     "relativePath": "03_抗美援朝/01_抗美援朝_全程态势图/22_1953年夏季反击战役第三次进攻金城战役经过要图.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/03_抗美援朝/01_抗美援朝_全程态势图/22_1953年夏季反击战役第三次进攻金城战役经过要图.jpg",
     "extension": "jpg",
     "sizeBytes": 11984585,
     "status": "available"
@@ -3256,7 +3007,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "03_抗美援朝",
     "relativePath": "03_抗美援朝/01_抗美援朝_全程态势图/23_朝鲜停战军事分界线略图.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/03_抗美援朝/01_抗美援朝_全程态势图/23_朝鲜停战军事分界线略图.jpg",
     "extension": "jpg",
     "sizeBytes": 9221603,
     "status": "available"
@@ -3269,7 +3019,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "03_抗美援朝",
     "relativePath": "03_抗美援朝/01_抗美援朝_全程态势图/24_抗美援朝战争经过要图.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/03_抗美援朝/01_抗美援朝_全程态势图/24_抗美援朝战争经过要图.jpg",
     "extension": "jpg",
     "sizeBytes": 28156524,
     "status": "available"
@@ -3282,7 +3031,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": null,
     "sourceGroup": "03_抗美援朝",
     "relativePath": "03_抗美援朝/01_抗美援朝_全程态势图/24_抗美援朝战争经过要图_02.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/03_抗美援朝/01_抗美援朝_全程态势图/24_抗美援朝战争经过要图_02.jpg",
     "extension": "jpg",
     "sizeBytes": 12659038,
     "status": "available"
@@ -3295,7 +3043,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-shangganling-1952",
     "sourceGroup": "03_抗美援朝",
     "relativePath": "03_抗美援朝/02_上甘岭战役_高清图3张/上甘岭战役第一阶段作战经过图.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/03_抗美援朝/02_上甘岭战役_高清图3张/上甘岭战役第一阶段作战经过图.jpg",
     "extension": "jpg",
     "sizeBytes": 20218354,
     "status": "available"
@@ -3308,7 +3055,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-shangganling-1952",
     "sourceGroup": "03_抗美援朝",
     "relativePath": "03_抗美援朝/02_上甘岭战役_高清图3张/上甘岭战役第三阶段作战经过图.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/03_抗美援朝/02_上甘岭战役_高清图3张/上甘岭战役第三阶段作战经过图.jpg",
     "extension": "jpg",
     "sizeBytes": 19585055,
     "status": "available"
@@ -3321,7 +3067,6 @@ export const visualSourceAssets: VisualSourceAsset[] = [
     "battleId": "battle-shangganling-1952",
     "sourceGroup": "03_抗美援朝",
     "relativePath": "03_抗美援朝/02_上甘岭战役_高清图3张/上甘岭战役第二阶段作战经过图.jpg",
-    "localPath": "/Users/kongyujia/Desktop/zez_project/figure/03_抗美援朝/02_上甘岭战役_高清图3张/上甘岭战役第二阶段作战经过图.jpg",
     "extension": "jpg",
     "sizeBytes": 19796792,
     "status": "available"

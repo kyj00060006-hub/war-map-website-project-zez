@@ -8,7 +8,6 @@ import { BattlesPage } from "../pages/BattlesPage";
 import { HomePage } from "../pages/HomePage";
 import { MapPage } from "../pages/MapPage";
 import { NotFoundPage } from "../pages/NotFoundPage";
-import { ReviewPage } from "../pages/ReviewPage";
 
 export function AppRouter() {
   return (
@@ -21,7 +20,6 @@ export function AppRouter() {
         <Route path="/atlas" element={<AtlasPage />} />
         <Route path="/battles/:battleId" element={<BattleDetailPage />} />
         <Route path="/about" element={<AboutPage />} />
-        <Route path="/review" element={<ReviewPage />} />
         <Route path="/home" element={<Navigate to="/" replace />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>

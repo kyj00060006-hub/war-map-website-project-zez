@@ -1,12 +1,10 @@
-import type { Battle, BattleFieldAlignmentSummary, BattleImageTimelineStep, BattleReviewPackage, BattleSide, VisualSourceAsset } from "../../types/war";
+import type { Battle, BattleImageTimelineStep, BattleSide, VisualSourceAsset } from "../../types/war";
 import { BattleImageTimeline } from "./BattleImageTimeline";
 import { getStageById, getWarById } from "../../utils/dataSelectors";
 
 type BattleDetailContentProps = {
   battle: Battle;
   imageTimelineSteps: BattleImageTimelineStep[];
-  reviewPackage?: BattleReviewPackage;
-  fieldAlignment?: BattleFieldAlignmentSummary;
   visualSources: VisualSourceAsset[];
 };
 
@@ -33,84 +31,16 @@ function SidePanel({ side }: { side: BattleSide }) {
   );
 }
 
-function getSourceStatusLabel(status: BattleReviewPackage["sourceStatus"]) {
-  return status === "prefilled_from_ocr" ? "OCR 已预填，待校准" : "缺直接证据，待补材料";
-}
-
-function ReviewStatusPanel({ reviewPackage }: { reviewPackage?: BattleReviewPackage }) {
-  if (!reviewPackage) {
-    return (
-      <div className="review-panel">
-        <p className="status-pill status-pending">待建立审校包</p>
-        <p>当前战役还没有关联到 OCR 预填卡。后续可补充到审校包后再接入。</p>
-      </div>
-    );
-  }
-
-  return (
-    <div className="review-panel">
-      <div className="review-status-row">
-        <span className={`status-pill ${reviewPackage.sourceStatus === "prefilled_from_ocr" ? "status-ready" : "status-gap"}`}>
-          {getSourceStatusLabel(reviewPackage.sourceStatus)}
-        </span>
-        <span className="status-pill">置信度：{reviewPackage.confidence}</span>
-        <span className="status-pill">证据候选：{reviewPackage.evidenceCount}</span>
-      </div>
-      <dl className="review-paths">
-        <div>
-          <dt>预填资料卡</dt>
-          <dd><code>{reviewPackage.reviewCardPath}</code></dd>
-        </div>
-        <div>
-          <dt>证据表</dt>
-          <dd><code>{reviewPackage.evidenceCsvPath}</code></dd>
-        </div>
-        <div>
-          <dt>OCR摘录</dt>
-          <dd><code>{reviewPackage.ocrExcerptPath}</code></dd>
-        </div>
-      </dl>
-      <p className="muted">这个区块是校准工作台：正式内容回来后，只需要把确认后的日期、双方、过程、来源页码写回数据层。</p>
-    </div>
-  );
-}
-
-function FieldAlignmentPanel({ fieldAlignment }: { fieldAlignment?: BattleFieldAlignmentSummary }) {
-  if (!fieldAlignment) {
-    return (
-      <div className="field-alignment-panel">
-        <span className="status-pill status-pending">字段校准索引待接入</span>
-        <p>当前战役还没有字段级证据对齐记录，页面会先保留草稿叙述。</p>
-      </div>
-    );
-  }
-
-  const isShared = fieldAlignment.aliasSourceIds.length > 0;
-
-  return (
-    <div className="field-alignment-panel">
-      <div className="review-status-row">
-        <span className={fieldAlignment.reviewPriority.startsWith("P0") ? "status-pill status-gap" : "status-pill status-ready"}>
-          {fieldAlignment.reviewPriority}
-        </span>
-        <span className="status-pill">可用字段 {fieldAlignment.readyFieldCount}</span>
-        <span className="status-pill">待复核字段 {fieldAlignment.weakOrSharedFieldCount}</span>
-        <span className="status-pill">证据项 {fieldAlignment.evidenceItemsAvailable}</span>
-      </div>
-      <p>{fieldAlignment.recommendedAction}</p>
-      {isShared ? (
-        <p className="field-alignment-warning">
-          使用映射来源：{fieldAlignment.aliasSourceIds.join("、")}。这些材料会作为历史科普候选，不直接覆盖具体战役粒度。
-        </p>
-      ) : null}
-      <p className="muted">默认叙事口径：历史科普叙述；数字、伤亡、兵力、阶段边界保留待校准标记。</p>
-    </div>
-  );
+function getPublicDataStatus(status: NonNullable<Battle["dataQuality"]>["status"] | undefined) {
+  if (status === "checked") return "已整理";
+  if (status === "conflicting") return "多来源待辨析";
+  if (status === "incomplete") return "资料补充中";
+  return "资料整理中";
 }
 
 function VisualSourceList({ sources }: { sources: VisualSourceAsset[] }) {
   if (!sources.length) {
-    return <p>当前没有自动关联到明确地图或 PDF。可在素材审选表中手动补选。</p>;
+    return <p>当前页面优先展示战役叙述与阶段图，更多来源页码在资料整理中。</p>;
   }
 
   return (
@@ -123,14 +53,13 @@ function VisualSourceList({ sources }: { sources: VisualSourceAsset[] }) {
           </div>
           <h3>{source.title}</h3>
           <p>{source.sourceGroup}</p>
-          <code>{source.localPath}</code>
         </article>
       ))}
     </div>
   );
 }
 
-export function BattleDetailContent({ battle, imageTimelineSteps, reviewPackage, fieldAlignment, visualSources }: BattleDetailContentProps) {
+export function BattleDetailContent({ battle, imageTimelineSteps, visualSources }: BattleDetailContentProps) {
   const war = getWarById(battle.warId);
   const stage = getStageById(battle.stageId);
 
@@ -158,18 +87,10 @@ export function BattleDetailContent({ battle, imageTimelineSteps, reviewPackage,
           </div>
           <div>
             <dt>数据状态</dt>
-            <dd>{battle.dataQuality?.status ?? "draft"}</dd>
+            <dd>{getPublicDataStatus(battle.dataQuality?.status)}</dd>
           </div>
         </dl>
       </div>
-
-      <DetailSection title="资料校准工作台">
-        <ReviewStatusPanel reviewPackage={reviewPackage} />
-      </DetailSection>
-
-      <DetailSection title="内容校准状态">
-        <FieldAlignmentPanel fieldAlignment={fieldAlignment} />
-      </DetailSection>
 
       {imageTimelineSteps.length ? (
         <DetailSection title="阶段图时间轴">
@@ -177,7 +98,7 @@ export function BattleDetailContent({ battle, imageTimelineSteps, reviewPackage,
         </DetailSection>
       ) : null}
 
-      <DetailSection title="相关地图与 PDF 候选">
+      <DetailSection title="相关地图与资料">
         <VisualSourceList sources={visualSources} />
       </DetailSection>
 
@@ -206,9 +127,9 @@ export function BattleDetailContent({ battle, imageTimelineSteps, reviewPackage,
         {battle.significance ? <p>{battle.significance}</p> : null}
       </DetailSection>
 
-      <DetailSection title="战役态势图预留">
+      <DetailSection title="态势图说明">
         <div className="situation-placeholder">
-          <span>Map / Situation Diagram Placeholder</span>
+          <span>地图说明</span>
           {battle.mapNotes ? <p>{battle.mapNotes}</p> : <p>后续可放置真实地形图、战线变化、部队部署或局部态势图。</p>}
         </div>
       </DetailSection>
@@ -225,12 +146,8 @@ export function BattleDetailContent({ battle, imageTimelineSteps, reviewPackage,
             ))}
           </ul>
         ) : (
-          <p>当前战役尚未写入页面级来源条目，请以资料校准工作台和字段级证据对齐表为准。</p>
+          <p>当前战役来源页码仍在整理中，公开版先展示经过、结果和图册线索。</p>
         )}
-      </DetailSection>
-
-      <DetailSection title="数据质量说明">
-        <p>{battle.dataQuality?.notes ?? "当前为历史科普草稿；数字、兵力、伤亡和阶段边界仍保留待校准状态。"}</p>
       </DetailSection>
     </article>
   );

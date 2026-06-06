@@ -1,5 +1,4 @@
 import { battles } from "../data/battles";
-import { battleReviewPackages } from "../data/battleReviewPackages";
 import { mapConfigs } from "../data/mapConfigs";
 import { mapLayers } from "../data/mapLayers";
 import { timelineStages } from "../data/timeline";
@@ -29,23 +28,12 @@ export const getMapConfigByWarId = (warId: WarId) =>
 
 export const getMapLayersByWarAndStage = (warId: WarId, stageId: string) =>
   mapLayers.filter((layer) => layer.warId === warId && layer.stageId === stageId);
-export const getReviewPackageByBattleId = (battleId: string) =>
-  battleReviewPackages.find(
-    (reviewPackage) =>
-      reviewPackage.battleId === battleId || reviewPackage.websiteBattleIds.includes(battleId),
-  );
-
-const getReviewBattleIds = (battleId: string) => {
-  const reviewPackage = getReviewPackageByBattleId(battleId);
-  return reviewPackage ? [reviewPackage.battleId, ...reviewPackage.websiteBattleIds] : [battleId];
-};
 
 export const getVisualSourcesForBattle = (battle: Battle) => {
-  const candidateBattleIds = new Set(getReviewBattleIds(battle.id));
   const titleTerms = [battle.name, ...(battle.aliases ?? [])].filter(Boolean);
 
   const directMatches = visualSourceAssets.filter((asset) =>
-    asset.battleId ? candidateBattleIds.has(asset.battleId) : false,
+    asset.battleId ? asset.battleId === battle.id : false,
   );
 
   const titleMatches = visualSourceAssets.filter((asset) => {
@@ -56,4 +44,3 @@ export const getVisualSourcesForBattle = (battle: Battle) => {
 
   return [...directMatches, ...titleMatches].slice(0, 8);
 };
-

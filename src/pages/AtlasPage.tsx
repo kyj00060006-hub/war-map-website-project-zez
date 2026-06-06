@@ -17,7 +17,7 @@ export function AtlasPage() {
     <PageShell
       eyebrow="Stage Map Atlas"
       title="阶段图集"
-      description="选择一个战役，用底部时间轴切换不同时期地图；右侧同步显示参战双方、关键地点和待校准说明。"
+      description="选择一个战役，用底部时间轴切换不同时期地图；右侧同步显示参战双方、关键地点和资料说明。"
     >
       <section className="atlas-layout">
         <aside className="atlas-selector" aria-label="选择战役">

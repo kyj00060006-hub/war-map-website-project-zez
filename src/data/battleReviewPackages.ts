@@ -1,6 +1,6 @@
 import type { BattleReviewPackage } from "../types/war";
 
-export const reviewPackageRoot = "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled";
+export const reviewPackageRoot = "professional_review_package_v2_prefilled";
 
 export const battleReviewPackages: BattleReviewPackage[] = [
   {
@@ -14,9 +14,9 @@ export const battleReviewPackages: BattleReviewPackage[] = [
     "evidenceCount": 2,
     "relatedImageCount": 0,
     "relatedPdfCount": 3,
-    "reviewCardPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/02_预填战役资料卡/抗日战争/battle-shanghai-1937.md",
-    "evidenceCsvPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/03_证据摘要/battle-shanghai-1937_evidence.csv",
-    "ocrExcerptPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/04_关键OCR摘录/battle-shanghai-1937_top_ocr_excerpts.md"
+    "reviewCardPath": "professional_review_package_v2_prefilled/02_预填战役资料卡/抗日战争/battle-shanghai-1937.md",
+    "evidenceCsvPath": "professional_review_package_v2_prefilled/03_证据摘要/battle-shanghai-1937_evidence.csv",
+    "ocrExcerptPath": "professional_review_package_v2_prefilled/04_关键OCR摘录/battle-shanghai-1937_top_ocr_excerpts.md"
   },
   {
     "battleId": "battle-xuzhou-1938",
@@ -29,9 +29,9 @@ export const battleReviewPackages: BattleReviewPackage[] = [
     "evidenceCount": 12,
     "relatedImageCount": 0,
     "relatedPdfCount": 6,
-    "reviewCardPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/02_预填战役资料卡/抗日战争/battle-xuzhou-1938.md",
-    "evidenceCsvPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/03_证据摘要/battle-xuzhou-1938_evidence.csv",
-    "ocrExcerptPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/04_关键OCR摘录/battle-xuzhou-1938_top_ocr_excerpts.md"
+    "reviewCardPath": "professional_review_package_v2_prefilled/02_预填战役资料卡/抗日战争/battle-xuzhou-1938.md",
+    "evidenceCsvPath": "professional_review_package_v2_prefilled/03_证据摘要/battle-xuzhou-1938_evidence.csv",
+    "ocrExcerptPath": "professional_review_package_v2_prefilled/04_关键OCR摘录/battle-xuzhou-1938_top_ocr_excerpts.md"
   },
   {
     "battleId": "battle-wuhan-1938",
@@ -44,9 +44,9 @@ export const battleReviewPackages: BattleReviewPackage[] = [
     "evidenceCount": 12,
     "relatedImageCount": 0,
     "relatedPdfCount": 10,
-    "reviewCardPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/02_预填战役资料卡/抗日战争/battle-wuhan-1938.md",
-    "evidenceCsvPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/03_证据摘要/battle-wuhan-1938_evidence.csv",
-    "ocrExcerptPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/04_关键OCR摘录/battle-wuhan-1938_top_ocr_excerpts.md"
+    "reviewCardPath": "professional_review_package_v2_prefilled/02_预填战役资料卡/抗日战争/battle-wuhan-1938.md",
+    "evidenceCsvPath": "professional_review_package_v2_prefilled/03_证据摘要/battle-wuhan-1938_evidence.csv",
+    "ocrExcerptPath": "professional_review_package_v2_prefilled/04_关键OCR摘录/battle-wuhan-1938_top_ocr_excerpts.md"
   },
   {
     "battleId": "battle-yuxianggui-1944",
@@ -64,9 +64,9 @@ export const battleReviewPackages: BattleReviewPackage[] = [
     "evidenceCount": 12,
     "relatedImageCount": 0,
     "relatedPdfCount": 2,
-    "reviewCardPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/02_预填战役资料卡/抗日战争/battle-yuxianggui-1944.md",
-    "evidenceCsvPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/03_证据摘要/battle-yuxianggui-1944_evidence.csv",
-    "ocrExcerptPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/04_关键OCR摘录/battle-yuxianggui-1944_top_ocr_excerpts.md"
+    "reviewCardPath": "professional_review_package_v2_prefilled/02_预填战役资料卡/抗日战争/battle-yuxianggui-1944.md",
+    "evidenceCsvPath": "professional_review_package_v2_prefilled/03_证据摘要/battle-yuxianggui-1944_evidence.csv",
+    "ocrExcerptPath": "professional_review_package_v2_prefilled/04_关键OCR摘录/battle-yuxianggui-1944_top_ocr_excerpts.md"
   },
   {
     "battleId": "battle-henan-1944",
@@ -79,9 +79,9 @@ export const battleReviewPackages: BattleReviewPackage[] = [
     "evidenceCount": 4,
     "relatedImageCount": 0,
     "relatedPdfCount": 6,
-    "reviewCardPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/02_预填战役资料卡/抗日战争/battle-henan-1944.md",
-    "evidenceCsvPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/03_证据摘要/battle-henan-1944_evidence.csv",
-    "ocrExcerptPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/04_关键OCR摘录/battle-henan-1944_top_ocr_excerpts.md"
+    "reviewCardPath": "professional_review_package_v2_prefilled/02_预填战役资料卡/抗日战争/battle-henan-1944.md",
+    "evidenceCsvPath": "professional_review_package_v2_prefilled/03_证据摘要/battle-henan-1944_evidence.csv",
+    "ocrExcerptPath": "professional_review_package_v2_prefilled/04_关键OCR摘录/battle-henan-1944_top_ocr_excerpts.md"
   },
   {
     "battleId": "battle-hunan-1944",
@@ -94,9 +94,9 @@ export const battleReviewPackages: BattleReviewPackage[] = [
     "evidenceCount": 10,
     "relatedImageCount": 0,
     "relatedPdfCount": 1,
-    "reviewCardPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/02_预填战役资料卡/抗日战争/battle-hunan-1944.md",
-    "evidenceCsvPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/03_证据摘要/battle-hunan-1944_evidence.csv",
-    "ocrExcerptPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/04_关键OCR摘录/battle-hunan-1944_top_ocr_excerpts.md"
+    "reviewCardPath": "professional_review_package_v2_prefilled/02_预填战役资料卡/抗日战争/battle-hunan-1944.md",
+    "evidenceCsvPath": "professional_review_package_v2_prefilled/03_证据摘要/battle-hunan-1944_evidence.csv",
+    "ocrExcerptPath": "professional_review_package_v2_prefilled/04_关键OCR摘录/battle-hunan-1944_top_ocr_excerpts.md"
   },
   {
     "battleId": "battle-guangxi-1944",
@@ -109,9 +109,9 @@ export const battleReviewPackages: BattleReviewPackage[] = [
     "evidenceCount": 11,
     "relatedImageCount": 0,
     "relatedPdfCount": 1,
-    "reviewCardPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/02_预填战役资料卡/抗日战争/battle-guangxi-1944.md",
-    "evidenceCsvPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/03_证据摘要/battle-guangxi-1944_evidence.csv",
-    "ocrExcerptPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/04_关键OCR摘录/battle-guangxi-1944_top_ocr_excerpts.md"
+    "reviewCardPath": "professional_review_package_v2_prefilled/02_预填战役资料卡/抗日战争/battle-guangxi-1944.md",
+    "evidenceCsvPath": "professional_review_package_v2_prefilled/03_证据摘要/battle-guangxi-1944_evidence.csv",
+    "ocrExcerptPath": "professional_review_package_v2_prefilled/04_关键OCR摘录/battle-guangxi-1944_top_ocr_excerpts.md"
   },
   {
     "battleId": "battle-changsha",
@@ -129,9 +129,9 @@ export const battleReviewPackages: BattleReviewPackage[] = [
     "evidenceCount": 12,
     "relatedImageCount": 0,
     "relatedPdfCount": 5,
-    "reviewCardPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/02_预填战役资料卡/抗日战争/battle-changsha.md",
-    "evidenceCsvPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/03_证据摘要/battle-changsha_evidence.csv",
-    "ocrExcerptPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/04_关键OCR摘录/battle-changsha_top_ocr_excerpts.md"
+    "reviewCardPath": "professional_review_package_v2_prefilled/02_预填战役资料卡/抗日战争/battle-changsha.md",
+    "evidenceCsvPath": "professional_review_package_v2_prefilled/03_证据摘要/battle-changsha_evidence.csv",
+    "ocrExcerptPath": "professional_review_package_v2_prefilled/04_关键OCR摘录/battle-changsha_top_ocr_excerpts.md"
   },
   {
     "battleId": "battle-nanchang-1939",
@@ -144,9 +144,9 @@ export const battleReviewPackages: BattleReviewPackage[] = [
     "evidenceCount": 7,
     "relatedImageCount": 0,
     "relatedPdfCount": 0,
-    "reviewCardPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/02_预填战役资料卡/抗日战争/battle-nanchang-1939.md",
-    "evidenceCsvPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/03_证据摘要/battle-nanchang-1939_evidence.csv",
-    "ocrExcerptPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/04_关键OCR摘录/battle-nanchang-1939_top_ocr_excerpts.md"
+    "reviewCardPath": "professional_review_package_v2_prefilled/02_预填战役资料卡/抗日战争/battle-nanchang-1939.md",
+    "evidenceCsvPath": "professional_review_package_v2_prefilled/03_证据摘要/battle-nanchang-1939_evidence.csv",
+    "ocrExcerptPath": "professional_review_package_v2_prefilled/04_关键OCR摘录/battle-nanchang-1939_top_ocr_excerpts.md"
   },
   {
     "battleId": "battle-south-guangxi-1939",
@@ -159,9 +159,9 @@ export const battleReviewPackages: BattleReviewPackage[] = [
     "evidenceCount": 8,
     "relatedImageCount": 0,
     "relatedPdfCount": 0,
-    "reviewCardPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/02_预填战役资料卡/抗日战争/battle-south-guangxi-1939.md",
-    "evidenceCsvPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/03_证据摘要/battle-south-guangxi-1939_evidence.csv",
-    "ocrExcerptPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/04_关键OCR摘录/battle-south-guangxi-1939_top_ocr_excerpts.md"
+    "reviewCardPath": "professional_review_package_v2_prefilled/02_预填战役资料卡/抗日战争/battle-south-guangxi-1939.md",
+    "evidenceCsvPath": "professional_review_package_v2_prefilled/03_证据摘要/battle-south-guangxi-1939_evidence.csv",
+    "ocrExcerptPath": "professional_review_package_v2_prefilled/04_关键OCR摘录/battle-south-guangxi-1939_top_ocr_excerpts.md"
   },
   {
     "battleId": "battle-south-henan-1941",
@@ -174,9 +174,9 @@ export const battleReviewPackages: BattleReviewPackage[] = [
     "evidenceCount": 1,
     "relatedImageCount": 0,
     "relatedPdfCount": 0,
-    "reviewCardPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/02_预填战役资料卡/抗日战争/battle-south-henan-1941.md",
-    "evidenceCsvPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/03_证据摘要/battle-south-henan-1941_evidence.csv",
-    "ocrExcerptPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/04_关键OCR摘录/battle-south-henan-1941_top_ocr_excerpts.md"
+    "reviewCardPath": "professional_review_package_v2_prefilled/02_预填战役资料卡/抗日战争/battle-south-henan-1941.md",
+    "evidenceCsvPath": "professional_review_package_v2_prefilled/03_证据摘要/battle-south-henan-1941_evidence.csv",
+    "ocrExcerptPath": "professional_review_package_v2_prefilled/04_关键OCR摘录/battle-south-henan-1941_top_ocr_excerpts.md"
   },
   {
     "battleId": "battle-shanggao-1941",
@@ -189,9 +189,9 @@ export const battleReviewPackages: BattleReviewPackage[] = [
     "evidenceCount": 8,
     "relatedImageCount": 0,
     "relatedPdfCount": 0,
-    "reviewCardPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/02_预填战役资料卡/抗日战争/battle-shanggao-1941.md",
-    "evidenceCsvPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/03_证据摘要/battle-shanggao-1941_evidence.csv",
-    "ocrExcerptPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/04_关键OCR摘录/battle-shanggao-1941_top_ocr_excerpts.md"
+    "reviewCardPath": "professional_review_package_v2_prefilled/02_预填战役资料卡/抗日战争/battle-shanggao-1941.md",
+    "evidenceCsvPath": "professional_review_package_v2_prefilled/03_证据摘要/battle-shanggao-1941_evidence.csv",
+    "ocrExcerptPath": "professional_review_package_v2_prefilled/04_关键OCR摘录/battle-shanggao-1941_top_ocr_excerpts.md"
   },
   {
     "battleId": "battle-south-shanxi-1941",
@@ -204,9 +204,9 @@ export const battleReviewPackages: BattleReviewPackage[] = [
     "evidenceCount": 8,
     "relatedImageCount": 0,
     "relatedPdfCount": 0,
-    "reviewCardPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/02_预填战役资料卡/抗日战争/battle-south-shanxi-1941.md",
-    "evidenceCsvPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/03_证据摘要/battle-south-shanxi-1941_evidence.csv",
-    "ocrExcerptPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/04_关键OCR摘录/battle-south-shanxi-1941_top_ocr_excerpts.md"
+    "reviewCardPath": "professional_review_package_v2_prefilled/02_预填战役资料卡/抗日战争/battle-south-shanxi-1941.md",
+    "evidenceCsvPath": "professional_review_package_v2_prefilled/03_证据摘要/battle-south-shanxi-1941_evidence.csv",
+    "ocrExcerptPath": "professional_review_package_v2_prefilled/04_关键OCR摘录/battle-south-shanxi-1941_top_ocr_excerpts.md"
   },
   {
     "battleId": "battle-west-hubei-1943",
@@ -219,9 +219,9 @@ export const battleReviewPackages: BattleReviewPackage[] = [
     "evidenceCount": 2,
     "relatedImageCount": 0,
     "relatedPdfCount": 0,
-    "reviewCardPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/02_预填战役资料卡/抗日战争/battle-west-hubei-1943.md",
-    "evidenceCsvPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/03_证据摘要/battle-west-hubei-1943_evidence.csv",
-    "ocrExcerptPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/04_关键OCR摘录/battle-west-hubei-1943_top_ocr_excerpts.md"
+    "reviewCardPath": "professional_review_package_v2_prefilled/02_预填战役资料卡/抗日战争/battle-west-hubei-1943.md",
+    "evidenceCsvPath": "professional_review_package_v2_prefilled/03_证据摘要/battle-west-hubei-1943_evidence.csv",
+    "ocrExcerptPath": "professional_review_package_v2_prefilled/04_关键OCR摘录/battle-west-hubei-1943_top_ocr_excerpts.md"
   },
   {
     "battleId": "battle-changde-1943",
@@ -234,9 +234,9 @@ export const battleReviewPackages: BattleReviewPackage[] = [
     "evidenceCount": 8,
     "relatedImageCount": 0,
     "relatedPdfCount": 0,
-    "reviewCardPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/02_预填战役资料卡/抗日战争/battle-changde-1943.md",
-    "evidenceCsvPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/03_证据摘要/battle-changde-1943_evidence.csv",
-    "ocrExcerptPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/04_关键OCR摘录/battle-changde-1943_top_ocr_excerpts.md"
+    "reviewCardPath": "professional_review_package_v2_prefilled/02_预填战役资料卡/抗日战争/battle-changde-1943.md",
+    "evidenceCsvPath": "professional_review_package_v2_prefilled/03_证据摘要/battle-changde-1943_evidence.csv",
+    "ocrExcerptPath": "professional_review_package_v2_prefilled/04_关键OCR摘录/battle-changde-1943_top_ocr_excerpts.md"
   },
   {
     "battleId": "battle-hengyang-1944",
@@ -249,9 +249,9 @@ export const battleReviewPackages: BattleReviewPackage[] = [
     "evidenceCount": 4,
     "relatedImageCount": 0,
     "relatedPdfCount": 0,
-    "reviewCardPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/02_预填战役资料卡/抗日战争/battle-hengyang-1944.md",
-    "evidenceCsvPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/03_证据摘要/battle-hengyang-1944_evidence.csv",
-    "ocrExcerptPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/04_关键OCR摘录/battle-hengyang-1944_top_ocr_excerpts.md"
+    "reviewCardPath": "professional_review_package_v2_prefilled/02_预填战役资料卡/抗日战争/battle-hengyang-1944.md",
+    "evidenceCsvPath": "professional_review_package_v2_prefilled/03_证据摘要/battle-hengyang-1944_evidence.csv",
+    "ocrExcerptPath": "professional_review_package_v2_prefilled/04_关键OCR摘录/battle-hengyang-1944_top_ocr_excerpts.md"
   },
   {
     "battleId": "battle-lingbao-1944",
@@ -264,9 +264,9 @@ export const battleReviewPackages: BattleReviewPackage[] = [
     "evidenceCount": 3,
     "relatedImageCount": 0,
     "relatedPdfCount": 0,
-    "reviewCardPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/02_预填战役资料卡/抗日战争/battle-lingbao-1944.md",
-    "evidenceCsvPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/03_证据摘要/battle-lingbao-1944_evidence.csv",
-    "ocrExcerptPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/04_关键OCR摘录/battle-lingbao-1944_top_ocr_excerpts.md"
+    "reviewCardPath": "professional_review_package_v2_prefilled/02_预填战役资料卡/抗日战争/battle-lingbao-1944.md",
+    "evidenceCsvPath": "professional_review_package_v2_prefilled/03_证据摘要/battle-lingbao-1944_evidence.csv",
+    "ocrExcerptPath": "professional_review_package_v2_prefilled/04_关键OCR摘录/battle-lingbao-1944_top_ocr_excerpts.md"
   },
   {
     "battleId": "battle-west-henan-north-hubei-1945",
@@ -279,9 +279,9 @@ export const battleReviewPackages: BattleReviewPackage[] = [
     "evidenceCount": 8,
     "relatedImageCount": 0,
     "relatedPdfCount": 0,
-    "reviewCardPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/02_预填战役资料卡/抗日战争/battle-west-henan-north-hubei-1945.md",
-    "evidenceCsvPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/03_证据摘要/battle-west-henan-north-hubei-1945_evidence.csv",
-    "ocrExcerptPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/04_关键OCR摘录/battle-west-henan-north-hubei-1945_top_ocr_excerpts.md"
+    "reviewCardPath": "professional_review_package_v2_prefilled/02_预填战役资料卡/抗日战争/battle-west-henan-north-hubei-1945.md",
+    "evidenceCsvPath": "professional_review_package_v2_prefilled/03_证据摘要/battle-west-henan-north-hubei-1945_evidence.csv",
+    "ocrExcerptPath": "professional_review_package_v2_prefilled/04_关键OCR摘录/battle-west-henan-north-hubei-1945_top_ocr_excerpts.md"
   },
   {
     "battleId": "battle-hong-kong-1941",
@@ -294,9 +294,9 @@ export const battleReviewPackages: BattleReviewPackage[] = [
     "evidenceCount": 12,
     "relatedImageCount": 0,
     "relatedPdfCount": 0,
-    "reviewCardPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/02_预填战役资料卡/抗日战争/battle-hong-kong-1941.md",
-    "evidenceCsvPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/03_证据摘要/battle-hong-kong-1941_evidence.csv",
-    "ocrExcerptPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/04_关键OCR摘录/battle-hong-kong-1941_top_ocr_excerpts.md"
+    "reviewCardPath": "professional_review_package_v2_prefilled/02_预填战役资料卡/抗日战争/battle-hong-kong-1941.md",
+    "evidenceCsvPath": "professional_review_package_v2_prefilled/03_证据摘要/battle-hong-kong-1941_evidence.csv",
+    "ocrExcerptPath": "professional_review_package_v2_prefilled/04_关键OCR摘录/battle-hong-kong-1941_top_ocr_excerpts.md"
   },
   {
     "battleId": "battle-western-yunnan",
@@ -311,9 +311,9 @@ export const battleReviewPackages: BattleReviewPackage[] = [
     "evidenceCount": 12,
     "relatedImageCount": 0,
     "relatedPdfCount": 1,
-    "reviewCardPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/02_预填战役资料卡/抗日战争/battle-western-yunnan.md",
-    "evidenceCsvPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/03_证据摘要/battle-western-yunnan_evidence.csv",
-    "ocrExcerptPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/04_关键OCR摘录/battle-western-yunnan_top_ocr_excerpts.md"
+    "reviewCardPath": "professional_review_package_v2_prefilled/02_预填战役资料卡/抗日战争/battle-western-yunnan.md",
+    "evidenceCsvPath": "professional_review_package_v2_prefilled/03_证据摘要/battle-western-yunnan_evidence.csv",
+    "ocrExcerptPath": "professional_review_package_v2_prefilled/04_关键OCR摘录/battle-western-yunnan_top_ocr_excerpts.md"
   },
   {
     "battleId": "battle-central-plains-breakout",
@@ -328,9 +328,9 @@ export const battleReviewPackages: BattleReviewPackage[] = [
     "evidenceCount": 0,
     "relatedImageCount": 0,
     "relatedPdfCount": 0,
-    "reviewCardPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/02_预填战役资料卡/解放战争/battle-central-plains-breakout.md",
-    "evidenceCsvPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/03_证据摘要/battle-central-plains-breakout_evidence.csv",
-    "ocrExcerptPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/04_关键OCR摘录/battle-central-plains-breakout_top_ocr_excerpts.md"
+    "reviewCardPath": "professional_review_package_v2_prefilled/02_预填战役资料卡/解放战争/battle-central-plains-breakout.md",
+    "evidenceCsvPath": "professional_review_package_v2_prefilled/03_证据摘要/battle-central-plains-breakout_evidence.csv",
+    "ocrExcerptPath": "professional_review_package_v2_prefilled/04_关键OCR摘录/battle-central-plains-breakout_top_ocr_excerpts.md"
   },
   {
     "battleId": "battle-menglianggu-1947",
@@ -343,9 +343,9 @@ export const battleReviewPackages: BattleReviewPackage[] = [
     "evidenceCount": 0,
     "relatedImageCount": 0,
     "relatedPdfCount": 0,
-    "reviewCardPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/02_预填战役资料卡/解放战争/battle-menglianggu-1947.md",
-    "evidenceCsvPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/03_证据摘要/battle-menglianggu-1947_evidence.csv",
-    "ocrExcerptPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/04_关键OCR摘录/battle-menglianggu-1947_top_ocr_excerpts.md"
+    "reviewCardPath": "professional_review_package_v2_prefilled/02_预填战役资料卡/解放战争/battle-menglianggu-1947.md",
+    "evidenceCsvPath": "professional_review_package_v2_prefilled/03_证据摘要/battle-menglianggu-1947_evidence.csv",
+    "ocrExcerptPath": "professional_review_package_v2_prefilled/04_关键OCR摘录/battle-menglianggu-1947_top_ocr_excerpts.md"
   },
   {
     "battleId": "battle-liaoshen-1948",
@@ -358,9 +358,9 @@ export const battleReviewPackages: BattleReviewPackage[] = [
     "evidenceCount": 0,
     "relatedImageCount": 4,
     "relatedPdfCount": 1,
-    "reviewCardPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/02_预填战役资料卡/解放战争/battle-liaoshen-1948.md",
-    "evidenceCsvPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/03_证据摘要/battle-liaoshen-1948_evidence.csv",
-    "ocrExcerptPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/04_关键OCR摘录/battle-liaoshen-1948_top_ocr_excerpts.md"
+    "reviewCardPath": "professional_review_package_v2_prefilled/02_预填战役资料卡/解放战争/battle-liaoshen-1948.md",
+    "evidenceCsvPath": "professional_review_package_v2_prefilled/03_证据摘要/battle-liaoshen-1948_evidence.csv",
+    "ocrExcerptPath": "professional_review_package_v2_prefilled/04_关键OCR摘录/battle-liaoshen-1948_top_ocr_excerpts.md"
   },
   {
     "battleId": "battle-huaihai-1948",
@@ -373,9 +373,9 @@ export const battleReviewPackages: BattleReviewPackage[] = [
     "evidenceCount": 0,
     "relatedImageCount": 4,
     "relatedPdfCount": 2,
-    "reviewCardPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/02_预填战役资料卡/解放战争/battle-huaihai-1948.md",
-    "evidenceCsvPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/03_证据摘要/battle-huaihai-1948_evidence.csv",
-    "ocrExcerptPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/04_关键OCR摘录/battle-huaihai-1948_top_ocr_excerpts.md"
+    "reviewCardPath": "professional_review_package_v2_prefilled/02_预填战役资料卡/解放战争/battle-huaihai-1948.md",
+    "evidenceCsvPath": "professional_review_package_v2_prefilled/03_证据摘要/battle-huaihai-1948_evidence.csv",
+    "ocrExcerptPath": "professional_review_package_v2_prefilled/04_关键OCR摘录/battle-huaihai-1948_top_ocr_excerpts.md"
   },
   {
     "battleId": "battle-pingjin-1948",
@@ -388,9 +388,9 @@ export const battleReviewPackages: BattleReviewPackage[] = [
     "evidenceCount": 0,
     "relatedImageCount": 4,
     "relatedPdfCount": 1,
-    "reviewCardPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/02_预填战役资料卡/解放战争/battle-pingjin-1948.md",
-    "evidenceCsvPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/03_证据摘要/battle-pingjin-1948_evidence.csv",
-    "ocrExcerptPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/04_关键OCR摘录/battle-pingjin-1948_top_ocr_excerpts.md"
+    "reviewCardPath": "professional_review_package_v2_prefilled/02_预填战役资料卡/解放战争/battle-pingjin-1948.md",
+    "evidenceCsvPath": "professional_review_package_v2_prefilled/03_证据摘要/battle-pingjin-1948_evidence.csv",
+    "ocrExcerptPath": "professional_review_package_v2_prefilled/04_关键OCR摘录/battle-pingjin-1948_top_ocr_excerpts.md"
   },
   {
     "battleId": "battle-yangtze-crossing-1949",
@@ -403,9 +403,9 @@ export const battleReviewPackages: BattleReviewPackage[] = [
     "evidenceCount": 0,
     "relatedImageCount": 0,
     "relatedPdfCount": 0,
-    "reviewCardPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/02_预填战役资料卡/解放战争/battle-yangtze-crossing-1949.md",
-    "evidenceCsvPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/03_证据摘要/battle-yangtze-crossing-1949_evidence.csv",
-    "ocrExcerptPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/04_关键OCR摘录/battle-yangtze-crossing-1949_top_ocr_excerpts.md"
+    "reviewCardPath": "professional_review_package_v2_prefilled/02_预填战役资料卡/解放战争/battle-yangtze-crossing-1949.md",
+    "evidenceCsvPath": "professional_review_package_v2_prefilled/03_证据摘要/battle-yangtze-crossing-1949_evidence.csv",
+    "ocrExcerptPath": "professional_review_package_v2_prefilled/04_关键OCR摘录/battle-yangtze-crossing-1949_top_ocr_excerpts.md"
   },
   {
     "battleId": "battle-korean-war-outbreak-1950",
@@ -420,9 +420,9 @@ export const battleReviewPackages: BattleReviewPackage[] = [
     "evidenceCount": 12,
     "relatedImageCount": 0,
     "relatedPdfCount": 0,
-    "reviewCardPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/02_预填战役资料卡/抗美援朝_朝鲜战争/battle-korean-war-outbreak-1950.md",
-    "evidenceCsvPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/03_证据摘要/battle-korean-war-outbreak-1950_evidence.csv",
-    "ocrExcerptPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/04_关键OCR摘录/battle-korean-war-outbreak-1950_top_ocr_excerpts.md"
+    "reviewCardPath": "professional_review_package_v2_prefilled/02_预填战役资料卡/抗美援朝_朝鲜战争/battle-korean-war-outbreak-1950.md",
+    "evidenceCsvPath": "professional_review_package_v2_prefilled/03_证据摘要/battle-korean-war-outbreak-1950_evidence.csv",
+    "ocrExcerptPath": "professional_review_package_v2_prefilled/04_关键OCR摘录/battle-korean-war-outbreak-1950_top_ocr_excerpts.md"
   },
   {
     "battleId": "battle-inchon-landing-1950",
@@ -437,9 +437,9 @@ export const battleReviewPackages: BattleReviewPackage[] = [
     "evidenceCount": 12,
     "relatedImageCount": 0,
     "relatedPdfCount": 0,
-    "reviewCardPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/02_预填战役资料卡/抗美援朝_朝鲜战争/battle-inchon-landing-1950.md",
-    "evidenceCsvPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/03_证据摘要/battle-inchon-landing-1950_evidence.csv",
-    "ocrExcerptPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/04_关键OCR摘录/battle-inchon-landing-1950_top_ocr_excerpts.md"
+    "reviewCardPath": "professional_review_package_v2_prefilled/02_预填战役资料卡/抗美援朝_朝鲜战争/battle-inchon-landing-1950.md",
+    "evidenceCsvPath": "professional_review_package_v2_prefilled/03_证据摘要/battle-inchon-landing-1950_evidence.csv",
+    "ocrExcerptPath": "professional_review_package_v2_prefilled/04_关键OCR摘录/battle-inchon-landing-1950_top_ocr_excerpts.md"
   },
   {
     "battleId": "battle-first-campaign-1950",
@@ -452,9 +452,9 @@ export const battleReviewPackages: BattleReviewPackage[] = [
     "evidenceCount": 12,
     "relatedImageCount": 2,
     "relatedPdfCount": 0,
-    "reviewCardPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/02_预填战役资料卡/抗美援朝_朝鲜战争/battle-first-campaign-1950.md",
-    "evidenceCsvPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/03_证据摘要/battle-first-campaign-1950_evidence.csv",
-    "ocrExcerptPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/04_关键OCR摘录/battle-first-campaign-1950_top_ocr_excerpts.md"
+    "reviewCardPath": "professional_review_package_v2_prefilled/02_预填战役资料卡/抗美援朝_朝鲜战争/battle-first-campaign-1950.md",
+    "evidenceCsvPath": "professional_review_package_v2_prefilled/03_证据摘要/battle-first-campaign-1950_evidence.csv",
+    "ocrExcerptPath": "professional_review_package_v2_prefilled/04_关键OCR摘录/battle-first-campaign-1950_top_ocr_excerpts.md"
   },
   {
     "battleId": "battle-second-campaign-1950",
@@ -467,9 +467,9 @@ export const battleReviewPackages: BattleReviewPackage[] = [
     "evidenceCount": 8,
     "relatedImageCount": 2,
     "relatedPdfCount": 0,
-    "reviewCardPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/02_预填战役资料卡/抗美援朝_朝鲜战争/battle-second-campaign-1950.md",
-    "evidenceCsvPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/03_证据摘要/battle-second-campaign-1950_evidence.csv",
-    "ocrExcerptPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/04_关键OCR摘录/battle-second-campaign-1950_top_ocr_excerpts.md"
+    "reviewCardPath": "professional_review_package_v2_prefilled/02_预填战役资料卡/抗美援朝_朝鲜战争/battle-second-campaign-1950.md",
+    "evidenceCsvPath": "professional_review_package_v2_prefilled/03_证据摘要/battle-second-campaign-1950_evidence.csv",
+    "ocrExcerptPath": "professional_review_package_v2_prefilled/04_关键OCR摘录/battle-second-campaign-1950_top_ocr_excerpts.md"
   },
   {
     "battleId": "battle-third-campaign-1950",
@@ -482,9 +482,9 @@ export const battleReviewPackages: BattleReviewPackage[] = [
     "evidenceCount": 8,
     "relatedImageCount": 1,
     "relatedPdfCount": 0,
-    "reviewCardPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/02_预填战役资料卡/抗美援朝_朝鲜战争/battle-third-campaign-1950.md",
-    "evidenceCsvPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/03_证据摘要/battle-third-campaign-1950_evidence.csv",
-    "ocrExcerptPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/04_关键OCR摘录/battle-third-campaign-1950_top_ocr_excerpts.md"
+    "reviewCardPath": "professional_review_package_v2_prefilled/02_预填战役资料卡/抗美援朝_朝鲜战争/battle-third-campaign-1950.md",
+    "evidenceCsvPath": "professional_review_package_v2_prefilled/03_证据摘要/battle-third-campaign-1950_evidence.csv",
+    "ocrExcerptPath": "professional_review_package_v2_prefilled/04_关键OCR摘录/battle-third-campaign-1950_top_ocr_excerpts.md"
   },
   {
     "battleId": "battle-fourth-campaign-1951",
@@ -497,9 +497,9 @@ export const battleReviewPackages: BattleReviewPackage[] = [
     "evidenceCount": 8,
     "relatedImageCount": 2,
     "relatedPdfCount": 0,
-    "reviewCardPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/02_预填战役资料卡/抗美援朝_朝鲜战争/battle-fourth-campaign-1951.md",
-    "evidenceCsvPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/03_证据摘要/battle-fourth-campaign-1951_evidence.csv",
-    "ocrExcerptPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/04_关键OCR摘录/battle-fourth-campaign-1951_top_ocr_excerpts.md"
+    "reviewCardPath": "professional_review_package_v2_prefilled/02_预填战役资料卡/抗美援朝_朝鲜战争/battle-fourth-campaign-1951.md",
+    "evidenceCsvPath": "professional_review_package_v2_prefilled/03_证据摘要/battle-fourth-campaign-1951_evidence.csv",
+    "ocrExcerptPath": "professional_review_package_v2_prefilled/04_关键OCR摘录/battle-fourth-campaign-1951_top_ocr_excerpts.md"
   },
   {
     "battleId": "battle-fifth-campaign-1951",
@@ -512,9 +512,9 @@ export const battleReviewPackages: BattleReviewPackage[] = [
     "evidenceCount": 8,
     "relatedImageCount": 3,
     "relatedPdfCount": 0,
-    "reviewCardPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/02_预填战役资料卡/抗美援朝_朝鲜战争/battle-fifth-campaign-1951.md",
-    "evidenceCsvPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/03_证据摘要/battle-fifth-campaign-1951_evidence.csv",
-    "ocrExcerptPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/04_关键OCR摘录/battle-fifth-campaign-1951_top_ocr_excerpts.md"
+    "reviewCardPath": "professional_review_package_v2_prefilled/02_预填战役资料卡/抗美援朝_朝鲜战争/battle-fifth-campaign-1951.md",
+    "evidenceCsvPath": "professional_review_package_v2_prefilled/03_证据摘要/battle-fifth-campaign-1951_evidence.csv",
+    "ocrExcerptPath": "professional_review_package_v2_prefilled/04_关键OCR摘录/battle-fifth-campaign-1951_top_ocr_excerpts.md"
   },
   {
     "battleId": "battle-shangganling-1952",
@@ -527,9 +527,9 @@ export const battleReviewPackages: BattleReviewPackage[] = [
     "evidenceCount": 12,
     "relatedImageCount": 5,
     "relatedPdfCount": 0,
-    "reviewCardPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/02_预填战役资料卡/抗美援朝_朝鲜战争/battle-shangganling-1952.md",
-    "evidenceCsvPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/03_证据摘要/battle-shangganling-1952_evidence.csv",
-    "ocrExcerptPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/04_关键OCR摘录/battle-shangganling-1952_top_ocr_excerpts.md"
+    "reviewCardPath": "professional_review_package_v2_prefilled/02_预填战役资料卡/抗美援朝_朝鲜战争/battle-shangganling-1952.md",
+    "evidenceCsvPath": "professional_review_package_v2_prefilled/03_证据摘要/battle-shangganling-1952_evidence.csv",
+    "ocrExcerptPath": "professional_review_package_v2_prefilled/04_关键OCR摘录/battle-shangganling-1952_top_ocr_excerpts.md"
   },
   {
     "battleId": "battle-kumsong-1953",
@@ -542,8 +542,8 @@ export const battleReviewPackages: BattleReviewPackage[] = [
     "evidenceCount": 12,
     "relatedImageCount": 1,
     "relatedPdfCount": 0,
-    "reviewCardPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/02_预填战役资料卡/抗美援朝_朝鲜战争/battle-kumsong-1953.md",
-    "evidenceCsvPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/03_证据摘要/battle-kumsong-1953_evidence.csv",
-    "ocrExcerptPath": "/Users/kongyujia/Desktop/zez_project/professional_review_package_v2_prefilled/04_关键OCR摘录/battle-kumsong-1953_top_ocr_excerpts.md"
+    "reviewCardPath": "professional_review_package_v2_prefilled/02_预填战役资料卡/抗美援朝_朝鲜战争/battle-kumsong-1953.md",
+    "evidenceCsvPath": "professional_review_package_v2_prefilled/03_证据摘要/battle-kumsong-1953_evidence.csv",
+    "ocrExcerptPath": "professional_review_package_v2_prefilled/04_关键OCR摘录/battle-kumsong-1953_top_ocr_excerpts.md"
   }
 ];

@@ -55,7 +55,7 @@ export type Battle = {
     note?: string;
   }[];
   dataQuality?: {
-    status: "draft" | "checked" | "conflicting" | "incomplete";
+    status: "pending" | "checked" | "conflicting" | "incomplete";
     notes?: string;
   };
 };
@@ -119,7 +119,6 @@ export type VisualSourceAsset = {
   battleId: string | null;
   sourceGroup: string;
   relativePath: string;
-  localPath: string;
   extension: string;
   sizeBytes: number;
   status: "available" | "deferred";
@@ -150,9 +149,7 @@ export type LiberationAtlasCandidate = {
   matchedTerms: string[];
   titleCandidates: string[];
   ocrExcerpt: string;
-  imagePath: string;
   publicImageUrl: string;
-  rawTextPath: string;
   riskTags: string;
   reason: string;
   detectedPageNumber: string;
@@ -203,5 +200,5 @@ export type BattleImageTimelineStep = {
   };
   keyLocations: string[];
   mapNotes: string;
-  dataStatus: "draft" | "needs_review" | "checked";
+  dataStatus: "pending" | "checked";
 };

@@ -5,7 +5,6 @@ const links = [
   { to: "/map", label: "战争地图" },
   { to: "/battles", label: "战役资料库" },
   { to: "/atlas", label: "阶段图集" },
-  { to: "/review", label: "审校工作台" },
   { to: "/about", label: "项目说明" },
 ];
 
