@@ -28,7 +28,7 @@ export function StageBattleList({ battles, onSelectBattle }: StageBattleListProp
           ))}
         </div>
       ) : (
-        <p className="empty-stage-message">当前阶段暂无已录入战役，后续将补充该阶段资料。</p>
+        <p className="empty-stage-message">当前阶段暂无独立战役条目。</p>
       )}
     </aside>
   );

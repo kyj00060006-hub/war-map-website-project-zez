@@ -1,3 +1,3 @@
 # Battle Images
 
-Placeholder directory for future battle situation maps, archival images, and generated visual materials.
+Static battle situation maps, archival images, and generated visual materials used by the public website.

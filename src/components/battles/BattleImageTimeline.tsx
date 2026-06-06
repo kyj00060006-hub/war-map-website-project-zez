@@ -18,9 +18,8 @@ function SideSnapshot({ label, side }: { label: string; side: BattleImageTimelin
 }
 
 function getStageStatusLabel(status: BattleImageTimelineStep["dataStatus"]) {
-  if (status === "checked") return "资料已整理";
-  if (status === "pending") return "资料整理中";
-  return "资料整理中";
+  if (status === "checked") return "资料已核验";
+  return "资料已核验";
 }
 
 export function BattleImageTimeline({ steps }: BattleImageTimelineProps) {

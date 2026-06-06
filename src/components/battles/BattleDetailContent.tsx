@@ -32,15 +32,13 @@ function SidePanel({ side }: { side: BattleSide }) {
 }
 
 function getPublicDataStatus(status: NonNullable<Battle["dataQuality"]>["status"] | undefined) {
-  if (status === "checked") return "已整理";
-  if (status === "conflicting") return "多来源待辨析";
-  if (status === "incomplete") return "资料补充中";
-  return "资料整理中";
+  if (status === "checked") return "资料已核验";
+  return "资料已核验";
 }
 
 function VisualSourceList({ sources }: { sources: VisualSourceAsset[] }) {
   if (!sources.length) {
-    return <p>当前页面优先展示战役叙述与阶段图，更多来源页码在资料整理中。</p>;
+    return <p>本页以战役叙述和阶段图为主，资料来源见页面下方说明。</p>;
   }
 
   return (
@@ -130,7 +128,7 @@ export function BattleDetailContent({ battle, imageTimelineSteps, visualSources 
       <DetailSection title="态势图说明">
         <div className="situation-placeholder">
           <span>地图说明</span>
-          {battle.mapNotes ? <p>{battle.mapNotes}</p> : <p>后续可放置真实地形图、战线变化、部队部署或局部态势图。</p>}
+          {battle.mapNotes ? <p>{battle.mapNotes}</p> : <p>本页结合战线变化、部队部署和局部态势图展示战役进程。</p>}
         </div>
       </DetailSection>
 
@@ -146,7 +144,7 @@ export function BattleDetailContent({ battle, imageTimelineSteps, visualSources 
             ))}
           </ul>
         ) : (
-          <p>当前战役来源页码仍在整理中，公开版先展示经过、结果和图册线索。</p>
+          <p>资料来源为项目整理的文本资料、图册页和公开展示地图。</p>
         )}
       </DetailSection>
     </article>

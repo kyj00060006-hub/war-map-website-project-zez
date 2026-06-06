@@ -2,12 +2,12 @@ import type { MapLayer } from "../types/war";
 
 export const mapLayers: MapLayer[] = [
   {
-    id: "cw-yangtze-crossing-route-demo",
+    id: "cw-yangtze-crossing-route",
     warId: "civil_war",
     stageId: "cw_pursuit",
     type: "route",
     name: "渡江方向示意",
-    description: "当前为概览路线，后续替换为经核验战役态势图层。",
+    description: "渡江方向概览路线，用于展示追歼阶段的主要空间走向。",
     coordinates: [
       [31.8, 117.2],
       [32.0, 118.1],
@@ -22,12 +22,12 @@ export const mapLayers: MapLayer[] = [
     },
   },
   {
-    id: "kw-position-line-demo",
+    id: "kw-position-line",
     warId: "korean_war",
     stageId: "kw_position",
     type: "frontline",
     name: "阵地战阶段战线示意",
-    description: "当前为概览示意线，后续可替换为阶段化战线数据。",
+    description: "阵地战阶段战线概览，用于展示双方战线的大致走向。",
     coordinates: [
       [38.1, 126.3],
       [38.25, 127.0],

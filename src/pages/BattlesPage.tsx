@@ -31,7 +31,7 @@ export function BattlesPage() {
     <PageShell
       eyebrow="Battle Archive"
       title="战役资料库"
-      description="按战争和阶段浏览战役卡片。当前内容以历史科普叙述为主，并保留资料来源和图册状态。"
+      description="按战争和阶段浏览战役卡片，结合历史科普叙述、资料来源和图册状态展示战役信息。"
     >
       <BattleFilters
         selectedWarId={selectedWarId}
