@@ -1,5 +1,220 @@
 import type { BattleImageTimelineStep } from "../types/war";
 
+type AntiJapaneseAtlasStepInput = {
+  battleId: string;
+  battleName: string;
+  imageSlug: string;
+  title: string;
+  dateLabel: string;
+  sideA?: string;
+  sideB?: string;
+  keyLocations: string[];
+};
+
+const antiJapaneseAtlasStep = ({
+  battleId,
+  battleName,
+  imageSlug,
+  title,
+  dateLabel,
+  sideA = "中国军队",
+  sideB = "日军",
+  keyLocations,
+}: AntiJapaneseAtlasStepInput): BattleImageTimelineStep => ({
+  id: `${battleId}-anti-japanese-atlas`,
+  battleId,
+  label: "图册页",
+  dateLabel,
+  title,
+  imageUrl: `/maps/anti-japanese-war-atlas/${imageSlug}.jpg`,
+  summary: `来自抗日战争图册的${battleName}资料页，用于补充战役范围、作战方向和关键节点。`,
+  sideA: {
+    name: sideA,
+    strength: "见资料来源",
+    notes: "依据图册资料整理。",
+  },
+  sideB: {
+    name: sideB,
+    strength: "见资料来源",
+    notes: "依据图册资料整理。",
+  },
+  keyLocations,
+  mapNotes: "该图册页作为网页阶段图展示资料，具体箭头、番号和图例仍以原图为准。",
+  dataStatus: "checked",
+});
+
+const antiJapaneseAtlasSupplementSteps: BattleImageTimelineStep[] = [
+  antiJapaneseAtlasStep({
+    battleId: "battle-shanghai-1937",
+    battleName: "淞沪会战",
+    imageSlug: "shanghai-1937",
+    title: "1937年淞沪会战图册资料页",
+    dateLabel: "1937年8月-11月",
+    keyLocations: ["上海", "吴淞", "苏州河", "沪宁方向"],
+  }),
+  antiJapaneseAtlasStep({
+    battleId: "battle-taiyuan-1937",
+    battleName: "太原会战",
+    imageSlug: "taiyuan-1937",
+    title: "1937年太原会战图册资料页",
+    dateLabel: "1937年9月-11月",
+    keyLocations: ["太原", "忻口", "平型关", "娘子关"],
+  }),
+  antiJapaneseAtlasStep({
+    battleId: "battle-xuzhou-1938",
+    battleName: "徐州会战",
+    imageSlug: "xuzhou-1938",
+    title: "1938年徐州会战图册资料页",
+    dateLabel: "1938年1月-5月",
+    keyLocations: ["徐州", "台儿庄", "津浦线", "陇海线"],
+  }),
+  antiJapaneseAtlasStep({
+    battleId: "battle-wuhan-1938",
+    battleName: "武汉会战",
+    imageSlug: "wuhan-1938",
+    title: "1938年武汉会战图册资料页",
+    dateLabel: "1938年6月-10月",
+    keyLocations: ["武汉", "九江", "田家镇", "长江中游"],
+  }),
+  antiJapaneseAtlasStep({
+    battleId: "battle-first-changsha-1939",
+    battleName: "第一次长沙会战",
+    imageSlug: "first-changsha-1939",
+    title: "1939年第一次长沙会战图册资料页",
+    dateLabel: "1939年9月-10月",
+    keyLocations: ["长沙", "岳阳", "新墙河", "汨罗江"],
+  }),
+  antiJapaneseAtlasStep({
+    battleId: "battle-south-guangxi-1939",
+    battleName: "桂南会战",
+    imageSlug: "south-guangxi-1939",
+    title: "1939-1940年桂南会战图册资料页",
+    dateLabel: "1939年11月-1940年11月",
+    keyLocations: ["南宁", "昆仑关", "钦州湾", "桂南交通线"],
+  }),
+  antiJapaneseAtlasStep({
+    battleId: "battle-nanchang-1939",
+    battleName: "南昌会战",
+    imageSlug: "nanchang-1939",
+    title: "1939年南昌会战图册资料页",
+    dateLabel: "1939年3月-5月",
+    keyLocations: ["南昌", "赣江", "鄱阳湖", "赣北"],
+  }),
+  antiJapaneseAtlasStep({
+    battleId: "battle-south-henan-1941",
+    battleName: "豫南会战",
+    imageSlug: "south-henan-1941",
+    title: "1941年豫南会战图册资料页",
+    dateLabel: "1941年1月-2月",
+    keyLocations: ["信阳", "驻马店", "平汉线", "豫南"],
+  }),
+  antiJapaneseAtlasStep({
+    battleId: "battle-shanggao-1941",
+    battleName: "上高会战",
+    imageSlug: "shanggao-1941",
+    title: "1941年上高会战图册资料页",
+    dateLabel: "1941年3月-4月",
+    keyLocations: ["上高", "锦江", "赣西北"],
+  }),
+  antiJapaneseAtlasStep({
+    battleId: "battle-south-shanxi-1941",
+    battleName: "晋南会战",
+    imageSlug: "south-shanxi-1941",
+    title: "1941年晋南会战图册资料页",
+    dateLabel: "1941年5月-6月",
+    keyLocations: ["中条山", "运城", "黄河北岸", "晋南"],
+  }),
+  antiJapaneseAtlasStep({
+    battleId: "battle-second-changsha-1941",
+    battleName: "第二次长沙会战",
+    imageSlug: "second-changsha-1941",
+    title: "1941年第二次长沙会战图册资料页",
+    dateLabel: "1941年9月-10月",
+    keyLocations: ["长沙", "湘北", "新墙河", "汨罗江"],
+  }),
+  antiJapaneseAtlasStep({
+    battleId: "battle-third-changsha-1941",
+    battleName: "第三次长沙会战",
+    imageSlug: "third-changsha-1941",
+    title: "1941-1942年第三次长沙会战图册资料页",
+    dateLabel: "1941年12月-1942年1月",
+    keyLocations: ["长沙", "湘北", "第九战区"],
+  }),
+  antiJapaneseAtlasStep({
+    battleId: "battle-zhejiang-jiangxi-1942",
+    battleName: "浙赣会战",
+    imageSlug: "zhejiang-jiangxi-1942",
+    title: "1942年浙赣会战图册资料页",
+    dateLabel: "1942年5月-9月",
+    keyLocations: ["浙赣铁路", "金华", "衢州", "上饶"],
+  }),
+  antiJapaneseAtlasStep({
+    battleId: "battle-west-hubei-1943",
+    battleName: "鄂西会战",
+    imageSlug: "west-hubei-1943",
+    title: "1943年鄂西会战图册资料页",
+    dateLabel: "1943年5月-6月",
+    keyLocations: ["宜昌", "恩施", "清江", "鄂西山地"],
+  }),
+  antiJapaneseAtlasStep({
+    battleId: "battle-changde-1943",
+    battleName: "常德会战",
+    imageSlug: "changde-1943",
+    title: "1943年常德会战图册资料页",
+    dateLabel: "1943年11月-12月",
+    keyLocations: ["常德", "洞庭湖", "沅江", "湘西北"],
+  }),
+  antiJapaneseAtlasStep({
+    battleId: "battle-henan-1944",
+    battleName: "河南会战",
+    imageSlug: "henan-1944",
+    title: "1944年豫中会战图册资料页",
+    dateLabel: "1944年4月-5月",
+    keyLocations: ["郑州", "洛阳", "许昌", "平汉线"],
+  }),
+  antiJapaneseAtlasStep({
+    battleId: "battle-hunan-1944",
+    battleName: "湖南会战",
+    imageSlug: "hunan-1944",
+    title: "1944年长衡会战图册资料页",
+    dateLabel: "1944年5月-8月",
+    keyLocations: ["长沙", "衡阳", "粤汉线", "湘北"],
+  }),
+  antiJapaneseAtlasStep({
+    battleId: "battle-guangxi-1944",
+    battleName: "广西会战",
+    imageSlug: "guangxi-1944",
+    title: "1944年桂柳会战图册资料页",
+    dateLabel: "1944年9月-12月",
+    keyLocations: ["桂林", "柳州", "湘桂线", "广西"],
+  }),
+  antiJapaneseAtlasStep({
+    battleId: "battle-west-yunnan-1944",
+    battleName: "滇西反攻",
+    imageSlug: "west-yunnan-1944",
+    title: "1943-1945年缅北及滇西作战图册资料页",
+    dateLabel: "1944年5月-1945年1月",
+    sideA: "中国远征军",
+    keyLocations: ["滇西", "怒江", "腾冲", "滇缅公路"],
+  }),
+  antiJapaneseAtlasStep({
+    battleId: "battle-west-henan-north-hubei-1945",
+    battleName: "豫西鄂北会战",
+    imageSlug: "west-henan-north-hubei-1945",
+    title: "1945年豫西鄂北会战图册资料页",
+    dateLabel: "1945年3月-5月",
+    keyLocations: ["老河口", "南阳", "襄阳", "豫西鄂北"],
+  }),
+  antiJapaneseAtlasStep({
+    battleId: "battle-west-hunan-1945",
+    battleName: "湘西会战",
+    imageSlug: "west-hunan-1945",
+    title: "1945年湘西会战图册资料页",
+    dateLabel: "1945年4月-6月",
+    keyLocations: ["雪峰山", "芷江", "湘西", "湘黔交通"],
+  }),
+];
+
 type LiberationAtlasSupplementStepInput = {
   battleId: string;
   battleName: string;
@@ -243,6 +458,7 @@ const liberationAtlasSupplementSteps: BattleImageTimelineStep[] = [
 ];
 
 export const battleImageTimelineSteps: BattleImageTimelineStep[] = [
+  ...antiJapaneseAtlasSupplementSteps,
   {
     id: "liaoshen-situation-19480911",
     battleId: "battle-liaoshen-1948",

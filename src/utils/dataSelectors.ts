@@ -1,4 +1,5 @@
 import { battles } from "../data/battles";
+import { historicalAnnotations } from "../data/annotations";
 import { mapConfigs } from "../data/mapConfigs";
 import { mapLayers } from "../data/mapLayers";
 import { timelineStages } from "../data/timeline";
@@ -28,6 +29,11 @@ export const getMapConfigByWarId = (warId: WarId) =>
 
 export const getMapLayersByWarAndStage = (warId: WarId, stageId: string) =>
   mapLayers.filter((layer) => layer.warId === warId && layer.stageId === stageId);
+
+export const getHistoricalAnnotationsByWarAndStage = (warId: WarId, stageId: string) =>
+  historicalAnnotations.filter(
+    (annotation) => annotation.warId === warId && (!annotation.stageId || annotation.stageId === stageId),
+  );
 
 export const getVisualSourcesForBattle = (battle: Battle) => {
   const titleTerms = [battle.name, ...(battle.aliases ?? [])].filter(Boolean);

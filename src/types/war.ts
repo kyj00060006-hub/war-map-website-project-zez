@@ -111,6 +111,17 @@ export type AreaMapLayer = {
 
 export type MapLayer = LineMapLayer | AreaMapLayer;
 
+export type HistoricalAnnotation = {
+  id: string;
+  warId: WarId;
+  stageId?: string;
+  label: string;
+  type: "city" | "battle-area" | "direction" | "source-note";
+  coordinates: [number, number];
+  description?: string;
+  sourceNote?: string;
+};
+
 export type VisualSourceAsset = {
   id: string;
   title: string;

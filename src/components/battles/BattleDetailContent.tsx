@@ -33,7 +33,9 @@ function SidePanel({ side }: { side: BattleSide }) {
 
 function getPublicDataStatus(status: NonNullable<Battle["dataQuality"]>["status"] | undefined) {
   if (status === "checked") return "资料已核验";
-  return "资料已核验";
+  if (status === "conflicting") return "资料待复核";
+  if (status === "incomplete") return "资料不完整";
+  return "草稿待核验";
 }
 
 function VisualSourceList({ sources }: { sources: VisualSourceAsset[] }) {

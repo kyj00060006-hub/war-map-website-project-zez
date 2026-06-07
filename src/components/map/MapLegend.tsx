@@ -1,11 +1,12 @@
 import type { MapLayer } from "../../types/war";
 
 type MapLegendProps = {
+  annotationCount: number;
   layerCount: number;
   layers: MapLayer[];
 };
 
-export function MapLegend({ layerCount, layers }: MapLegendProps) {
+export function MapLegend({ annotationCount, layerCount, layers }: MapLegendProps) {
   const layerTypeCounts = layers.reduce<Record<MapLayer["type"], number>>(
     (counts, layer) => ({
       ...counts,
@@ -25,6 +26,7 @@ export function MapLegend({ layerCount, layers }: MapLegendProps) {
     { key: "frontline", label: "战线", className: "legend-frontline", count: layerTypeCounts.frontline },
     { key: "control-area", label: "势力范围", className: "legend-control-area", count: layerTypeCounts["control-area"] },
     { key: "troop-area", label: "部队部署区", className: "legend-troop-area", count: layerTypeCounts["troop-area"] },
+    { key: "annotation", label: "历史标注", className: "legend-annotation", count: annotationCount },
   ];
 
   return (

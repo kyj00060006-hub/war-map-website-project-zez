@@ -1,9 +1,15 @@
 import { useEffect } from "react";
 import { MapContainer, useMap } from "react-leaflet";
 import type { Battle, WarId } from "../../types/war";
-import { getBattlesByWarAndStage, getMapConfigByWarId, getMapLayersByWarAndStage } from "../../utils/dataSelectors";
+import {
+  getBattlesByWarAndStage,
+  getHistoricalAnnotationsByWarAndStage,
+  getMapConfigByWarId,
+  getMapLayersByWarAndStage,
+} from "../../utils/dataSelectors";
 import { BaseMapLayer } from "./BaseMapLayer";
 import { BattleMarkers } from "./BattleMarkers";
+import { HistoricalAnnotationMarkers } from "./HistoricalAnnotationMarkers";
 import { MapLayerRenderer } from "./MapLayerRenderer";
 
 type WarMapProps = {
@@ -41,6 +47,7 @@ export function WarMap({ activeWarId, activeStageId, focusedBattle, onSelectBatt
   const config = getMapConfigByWarId(activeWarId);
   const stageBattles = getBattlesByWarAndStage(activeWarId, activeStageId);
   const layers = getMapLayersByWarAndStage(activeWarId, activeStageId);
+  const annotations = getHistoricalAnnotationsByWarAndStage(activeWarId, activeStageId);
 
   if (!config) {
     return <div className="map-empty">缺少地图配置。</div>;
@@ -61,6 +68,7 @@ export function WarMap({ activeWarId, activeStageId, focusedBattle, onSelectBatt
         <BattleFocusSync battle={focusedBattle} />
         <BaseMapLayer config={config} />
         <MapLayerRenderer layers={layers} />
+        <HistoricalAnnotationMarkers annotations={annotations} />
         <BattleMarkers battles={stageBattles} onSelectBattle={onSelectBattle} />
       </MapContainer>
     </div>

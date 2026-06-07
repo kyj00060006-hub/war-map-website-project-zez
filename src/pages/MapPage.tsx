@@ -12,6 +12,7 @@ import type { Battle, WarId } from "../types/war";
 import {
   getBattleById,
   getBattlesByWarAndStage,
+  getHistoricalAnnotationsByWarAndStage,
   getMapLayersByWarAndStage,
   getStageById,
   getStagesByWarId,
@@ -49,6 +50,7 @@ export function MapPage() {
   const activeStage = getStageById(activeStageId);
   const stageBattles = getBattlesByWarAndStage(activeWarId, activeStageId);
   const stageLayers = getMapLayersByWarAndStage(activeWarId, activeStageId);
+  const stageAnnotations = getHistoricalAnnotationsByWarAndStage(activeWarId, activeStageId);
 
   const handleBattleSelect = (battle: Battle) => {
     setFocusedBattle(battle);
@@ -100,7 +102,7 @@ export function MapPage() {
         />
         <StageInfoPanel war={activeWar} stage={activeStage} battleCount={stageBattles.length} />
         <StageBattleList battles={stageBattles} onSelectBattle={handleBattleSelect} />
-        <MapLegend layerCount={stageLayers.length} layers={stageLayers} />
+        <MapLegend annotationCount={stageAnnotations.length} layerCount={stageLayers.length} layers={stageLayers} />
       </section>
 
       <StageTimeline stages={stages} activeStageId={activeStageId} onStageChange={handleStageChange} />
