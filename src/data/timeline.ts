@@ -8,7 +8,7 @@ export const timelineStages: TimelineStage[] = [
     startDate: "1931-09-18",
     endDate: "1937-07-07",
     dateLabel: "1931-1937",
-    summary: "从九一八事变到七七事变，局部冲突逐步演变为全面战争。",
+    summary: "从九一八事变、华北危机到七七事变，局部抗战不断扩大，东北、华北局势和全国动员共同把战争推向全面爆发。",
   },
   {
     id: "aj_defense",
@@ -17,7 +17,7 @@ export const timelineStages: TimelineStage[] = [
     startDate: "1937-07-07",
     endDate: "1938-10-25",
     dateLabel: "1937-1938",
-    summary: "大型会战密集展开，中国军队以空间换时间，牵制并消耗日军。",
+    summary: "平津、上海、山西、徐州、武汉等方向大会战密集展开，中国军队以空间换时间，迟滞日军推进，迫使速战速决企图转入长期消耗。",
   },
   {
     id: "aj_stalemate",
@@ -26,7 +26,7 @@ export const timelineStages: TimelineStage[] = [
     startDate: "1938-10-25",
     endDate: "1943-12-31",
     dateLabel: "1938-1943",
-    summary: "正面战场与敌后战场并行，战争进入长期消耗和区域反复争夺阶段。",
+    summary: "武汉、广州失守后，战争进入长期相持；正面战场在长沙、赣北、豫南、晋南、鄂西、常德等方向反复作战，敌后战场和国际援助也持续影响战局。",
   },
   {
     id: "aj_counter_local",
@@ -35,7 +35,7 @@ export const timelineStages: TimelineStage[] = [
     startDate: "1944-01-01",
     endDate: "1945-07-31",
     dateLabel: "1944-1945",
-    summary: "局部战区出现反攻行动，同时日军仍发动大规模进攻以打通交通线。",
+    summary: "1944年日军发动一号作战，河南、湖南、广西方向承受巨大压力；同时滇西、缅北和部分战区反攻推进，战局出现进攻与反攻交错的局面。",
   },
   {
     id: "aj_counter_total",
@@ -44,7 +44,7 @@ export const timelineStages: TimelineStage[] = [
     startDate: "1945-03-01",
     endDate: "1945-09-02",
     dateLabel: "1945",
-    summary: "战争进入最后阶段，正面战场继续作战，各战区随后推进受降与收复行动。",
+    summary: "豫西鄂北、湘西、桂柳等方向的作战与收复行动构成胜利前夕的最后战场图景，随后各战区进入受降、接收和战后秩序重建。",
   },
   {
     id: "cw_defense",
