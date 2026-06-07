@@ -1,4 +1,5 @@
 import L from "leaflet";
+import { memo } from "react";
 import { Marker, Tooltip } from "react-leaflet";
 import type { HistoricalAnnotation } from "../../types/war";
 
@@ -13,7 +14,7 @@ const annotationIcon = new L.DivIcon({
   iconAnchor: [8, 8],
 });
 
-export function HistoricalAnnotationMarkers({ annotations }: HistoricalAnnotationMarkersProps) {
+function HistoricalAnnotationMarkersComponent({ annotations }: HistoricalAnnotationMarkersProps) {
   return (
     <>
       {annotations.map((annotation) => (
@@ -28,3 +29,5 @@ export function HistoricalAnnotationMarkers({ annotations }: HistoricalAnnotatio
     </>
   );
 }
+
+export const HistoricalAnnotationMarkers = memo(HistoricalAnnotationMarkersComponent);

@@ -1,3 +1,4 @@
+import { memo } from "react";
 import { Polygon, Polyline, Tooltip } from "react-leaflet";
 import type { AreaMapLayer, MapLayer } from "../../types/war";
 
@@ -5,7 +6,7 @@ type MapLayerRendererProps = {
   layers: MapLayer[];
 };
 
-export function MapLayerRenderer({ layers }: MapLayerRendererProps) {
+function MapLayerRendererComponent({ layers }: MapLayerRendererProps) {
   return (
     <>
       {layers.map((layer) => {
@@ -51,3 +52,5 @@ export function MapLayerRenderer({ layers }: MapLayerRendererProps) {
     </>
   );
 }
+
+export const MapLayerRenderer = memo(MapLayerRendererComponent);

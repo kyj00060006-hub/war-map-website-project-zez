@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useMemo } from "react";
 import { MapContainer, useMap } from "react-leaflet";
 import type { Battle, WarId } from "../../types/war";
 import {
@@ -44,10 +44,13 @@ function BattleFocusSync({ battle }: { battle: Battle | null }) {
 }
 
 export function WarMap({ activeWarId, activeStageId, focusedBattle, onSelectBattle }: WarMapProps) {
-  const config = getMapConfigByWarId(activeWarId);
-  const stageBattles = getBattlesByWarAndStage(activeWarId, activeStageId);
-  const layers = getMapLayersByWarAndStage(activeWarId, activeStageId);
-  const annotations = getHistoricalAnnotationsByWarAndStage(activeWarId, activeStageId);
+  const config = useMemo(() => getMapConfigByWarId(activeWarId), [activeWarId]);
+  const stageBattles = useMemo(() => getBattlesByWarAndStage(activeWarId, activeStageId), [activeWarId, activeStageId]);
+  const layers = useMemo(() => getMapLayersByWarAndStage(activeWarId, activeStageId), [activeWarId, activeStageId]);
+  const annotations = useMemo(
+    () => getHistoricalAnnotationsByWarAndStage(activeWarId, activeStageId),
+    [activeWarId, activeStageId],
+  );
 
   if (!config) {
     return <div className="map-empty">缺少地图配置。</div>;
@@ -62,6 +65,7 @@ export function WarMap({ activeWarId, activeStageId, focusedBattle, onSelectBatt
         minZoom={config.minZoom}
         maxZoom={config.maxZoom}
         maxBounds={config.bounds}
+        preferCanvas
         scrollWheelZoom
       >
         <MapViewportSync activeWarId={activeWarId} />

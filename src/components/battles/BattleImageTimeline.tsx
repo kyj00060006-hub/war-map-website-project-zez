@@ -22,6 +22,11 @@ function getStageStatusLabel(status: BattleImageTimelineStep["dataStatus"]) {
   return "资料已核验";
 }
 
+function getDisplayMapUrl(imageUrl: string) {
+  if (!imageUrl.startsWith("/maps/")) return imageUrl;
+  return `/maps/display/${imageUrl.slice("/maps/".length)}`;
+}
+
 export function BattleImageTimeline({ steps }: BattleImageTimelineProps) {
   const [activeStepId, setActiveStepId] = useState(steps[0]?.id ?? "");
   const [zoomMode, setZoomMode] = useState<"fit" | "wide" | "actual">("fit");
@@ -44,7 +49,12 @@ export function BattleImageTimeline({ steps }: BattleImageTimelineProps) {
           <a href={activeStep.imageUrl} target="_blank" rel="noreferrer">打开原图</a>
         </div>
         <div className={`image-timeline-map-frame zoom-${zoomMode}`}>
-          <img src={activeStep.imageUrl} alt={activeStep.title} />
+          <img
+            src={getDisplayMapUrl(activeStep.imageUrl)}
+            alt={activeStep.title}
+            loading="lazy"
+            decoding="async"
+          />
         </div>
         <div className="image-timeline-controls" role="tablist" aria-label="阶段切换">
           {steps.map((step) => (

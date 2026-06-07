@@ -269,6 +269,13 @@ p {
   min-height: 60vh;
 }
 
+.route-loading {
+  display: grid;
+  min-height: 52vh;
+  place-items: center;
+  color: var(--muted);
+}
+
 .page-heading {
   margin-bottom: 28px;
 }

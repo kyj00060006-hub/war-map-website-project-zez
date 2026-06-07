@@ -15,7 +15,15 @@ export function BaseMapLayer({ config }: BaseMapLayerProps) {
 
   if (baseLayer.type === "custom-tile" || baseLayer.type === "standard-tile") {
     if (!baseLayer.url) return null;
-    return <TileLayer url={baseLayer.url} attribution={baseLayer.attribution} />;
+    return (
+      <TileLayer
+        url={baseLayer.url}
+        attribution={baseLayer.attribution}
+        keepBuffer={2}
+        updateWhenIdle
+        updateWhenZooming={false}
+      />
+    );
   }
 
   return null;

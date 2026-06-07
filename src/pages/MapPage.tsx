@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import type { CSSProperties } from "react";
 import { useSearchParams } from "react-router-dom";
 import { BattlePreviewModal } from "../components/map/BattlePreviewModal";
@@ -52,23 +52,23 @@ export function MapPage() {
   const stageLayers = getMapLayersByWarAndStage(activeWarId, activeStageId);
   const stageAnnotations = getHistoricalAnnotationsByWarAndStage(activeWarId, activeStageId);
 
-  const handleBattleSelect = (battle: Battle) => {
+  const handleBattleSelect = useCallback((battle: Battle) => {
     setFocusedBattle(battle);
     setSelectedBattle(battle);
-  };
+  }, []);
 
-  const handleWarChange = (warId: WarId) => {
+  const handleWarChange = useCallback((warId: WarId) => {
     setActiveWarId(warId);
     setActiveStageId(getDefaultStageId(warId));
     setSelectedBattle(null);
     setFocusedBattle(null);
-  };
+  }, []);
 
-  const handleStageChange = (stageId: string) => {
+  const handleStageChange = useCallback((stageId: string) => {
     setActiveStageId(stageId);
     setSelectedBattle(null);
     setFocusedBattle(null);
-  };
+  }, []);
 
   return (
     <main className="map-page">

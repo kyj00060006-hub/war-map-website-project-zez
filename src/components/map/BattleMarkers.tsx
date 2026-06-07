@@ -1,4 +1,5 @@
 import L from "leaflet";
+import { memo } from "react";
 import { Marker, Tooltip } from "react-leaflet";
 import type { Battle } from "../../types/war";
 
@@ -14,7 +15,7 @@ const battleIcon = new L.DivIcon({
   iconAnchor: [9, 9],
 });
 
-export function BattleMarkers({ battles, onSelectBattle }: BattleMarkersProps) {
+function BattleMarkersComponent({ battles, onSelectBattle }: BattleMarkersProps) {
   return (
     <>
       {battles.map((battle) => (
@@ -32,3 +33,5 @@ export function BattleMarkers({ battles, onSelectBattle }: BattleMarkersProps) {
     </>
   );
 }
+
+export const BattleMarkers = memo(BattleMarkersComponent);
