@@ -41,10 +41,10 @@ export const timelineStages: TimelineStage[] = [
     id: "aj_counter_total",
     warId: "anti_japanese",
     label: "全面反攻",
-    startDate: "1945-08-01",
+    startDate: "1945-03-01",
     endDate: "1945-09-02",
     dateLabel: "1945",
-    summary: "战争进入最后阶段，各战区推进受降与收复行动。",
+    summary: "战争进入最后阶段，正面战场继续作战，各战区随后推进受降与收复行动。",
   },
   {
     id: "cw_defense",
